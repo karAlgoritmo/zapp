@@ -133,9 +133,46 @@ hr {
   margin-bottom: 0px;
 }
 
+.text-lit-black4 {
+  color: #000;
+  font-family: 'grotesk';
+  font-size: 23px;
+  margin-bottom: 0px;
+}
+
+.text-mid-green {
+  color: #0BBE5E;
+  font-family: 'grotesk';
+  font-size: 31px;
+  margin-bottom: 0px;
+}
+
+.text-mid-green2 {
+  color: #0BBE5E;
+  font-family: 'grotesk';
+  font-size: 31px;
+  margin-bottom: 0px;
+}
+
+.text-big-green {
+  color: #0BBE5E;
+  font-family: 'grotesk';
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
 .card {
   background-color: #9AE8EB;
   border-radius: 15px;
+}
+
+.card-white {
+  background-color: #fff;
+  border-radius: 15px;
+  position: absolute;
+  top: 54vh;
+  left: 97vh;
+  z-index: 2;
 }
 
 .zapp-img {
@@ -209,16 +246,38 @@ hr {
   background-image: url('./assets/img/Elements_WhatsApp_Logo_Paper.png');
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 35px;
-  height: 5vh;
+  position: absolute;
+  width: 156px;
+  height: 19vh;
+  top: 40vh;
+  left: 159vh;
  }
 
  .pais-img {
   background-image: url('./assets/img/Elements_Flag.svg');
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 35px;
-  height: 5vh;
+  position: absolute;
+  top: 62vh;
+  left: 196vh;
+  width: 73px;
+  height: 10vh;
+ }
+
+ .plane-img {
+  color: #000;
+ }
+ .plane-img::before{
+   content:""; 
+   background-image: url('./assets/img/Airplane2.svg');
+   background-size: 100%;
+   background-repeat: no-repeat;
+   width: 195vh;
+   height: 46vh;
+   display: block;
+   position: absolute;
+   top: 63vh;
+   z-index: 1;
  }
 
 .whats2-img {

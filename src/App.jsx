@@ -30,14 +30,25 @@ function App() {
         <p className='text-big-white' >tan fácil como chatear</p>
         <p className='text-big-white'>por WhatsApp</p>
        </div>
+       <Card className='col-3 card-white'>
+          <Card.Body>
+            <p className='text-lit-black4'>Escríbenos por WhatsApp </p>
+            <p className='text-lit-black4'>y haz tu primer envío por</p>
+            <Card.Text className='text-mid-green'>
+              !0$ de comisión!
+            </Card.Text>
+            <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black pt-3'><div className='btnwhats-img'></div></Nav.Link>
+          </Card.Body>
+        </Card>
        <div className='whats3-img'></div>
        <div className='pais-img'></div>
+       <div className='plane-img'></div>
        <div className='phone-img'></div>
        <div className='nube-img'></div>
        <div className='edificios-img'></div>
       </section>
       <section className='seccionTwo'>
-        <p className='d-flex justify-content-center text-mid-black'>Tus seres queridos podrán recibir su dinero en mas de 40.000 puntos de pago</p>
+        <p className='d-flex justify-content-center text-mid-black'>Tus seres queridos podrán recibir su dinero en mas de <span className='text-mid-green2 mx-2'> 40.000 </span> <span className='text-mid-green2 mx-2'> puntos </span> de pago</p>
         <p className='d-flex justify-content-center text-mid-black mb-5'>o directo a su cuenta bancaria.</p>
         <div className=' d-flex justify-content-center col-12'>
           <div className='col-8 row d-flex justify-content-between'>
@@ -184,7 +195,7 @@ function App() {
       <section className='seccionThree'>
         <section className='col-12 d-flex justify-content-center'>
             <div className='col-10 p-5'>
-              <p className='text-big-black3'>Descubre la nueva forma fácil, rápida y segura</p>
+              <p className='text-big-black3'>Descubre la <span className='text-big-green mx-2'> nueva </span> forma fácil, rápida y segura</p>
               <p className='text-big-black3'>de enviar dinero a mexico</p>
             </div>
         </section>
