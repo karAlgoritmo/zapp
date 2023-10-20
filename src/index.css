@@ -1,0 +1,432 @@
+@font-face {
+  font-family: 'lato';
+  src: url('../src/assets/fonts/Lato-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'lato-bold';
+  src: url('../src/assets/fonts/Lato-Bold.ttf') format('truetype');
+  font-style: bold;
+  font-weight:bold;
+}
+
+@font-face {
+  font-family: 'grotesk';
+  src: url('../src/assets/fonts/Typo\ Grotesk\ Rounded.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'grotesk-light';
+  src: url('../src/assets/fonts/Typo\ Grotesk\ Rounded\ Light.woff') format('woff');
+  font-style: light;
+  font-weight: 200;
+}
+
+hr {
+  background-color: #fff;
+  color: #fff;
+  margin-left: 27vh;
+  margin-right: 27vh;
+  padding: 1px;
+  border-radius: 5vh;
+  opacity: inherit;
+}
+
+.seccionOne {
+  background-color: #0BBE5E;
+  width: auto;
+  height: 86vh;
+}
+
+.seccionTwo {
+  background-color: #f7f9fa;
+  padding-top: 20vh;
+}
+
+.seccionThree {
+  background-color: #fff;
+}
+
+.seccionFour {
+  background-color: #02c6cc;
+}
+
+.seccionFive {
+  background-color: #000;
+}
+
+.conttextone {
+  position: absolute;
+  top: 12vh;
+  right: 9vh;
+}
+
+.text-header-black {
+  font-family: 'lato-bold';
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 0px;
+}
+
+.text-big-white {
+  font-family: 'grotesk';
+  font-size: 58px;
+  color: #fff;
+  margin-bottom: -23px;
+}
+
+.text-mid-white {
+  color: #fff;
+  font-family: 'grotesk';
+  font-size: 31px;
+  margin-bottom: 0px;
+}
+
+.text-lit-white {
+  color: #fff;
+  font-family: 'grotesk';
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.text-big-black {
+  color: #000;
+  font-family: 'grotesk';
+  font-size: 40px;
+  padding: 5vh;
+}
+
+.text-mid-black {
+  color: #000;
+  font-family: 'grotesk';
+  font-size: 31px;
+  margin-bottom: 0px;
+}
+
+.text-lit-black {
+  color: #000;
+  font-family: 'grotesk';
+  font-size: 12px;
+}
+
+.text-big-black2 {
+  color: #000;
+  font-family: 'grotesk';
+  font-size: 40px;
+}
+
+.text-lit-black2 {
+  color: #000;
+  font-family: 'grotesk';
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.text-big-black3 {
+  color: #000;
+  font-family: 'grotesk';
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+.card {
+  background-color: #9AE8EB;
+  border-radius: 15px;
+}
+
+.zapp-img {
+  background-image: url('./assets/img/zapp.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 24vh;
+  height: 5vh;
+ }
+
+ .zapp2-img {
+  background-image: url('./assets/img/zapp.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 24vh;
+  height: 5vh;
+ }
+
+ .uni-img {
+  background-image: url('./assets/img/uni.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 15vh;
+  height: 5vh;
+  margin-left: 34vh;
+ }
+
+ .btnwhats-img {
+  background-image: url('./assets/img/Elements_Button.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 40vh;
+  height: 11vh;
+ }
+
+
+.edificios-img {
+  background-color: #000;
+}
+.edificios-img::before{
+  content:""; 
+  background-image: url('./assets/img/Elements_Skyline.svg');
+  background-size: 104%;
+  width: 219vh;
+  height: 80vh;
+  display: block;
+  position: absolute;
+  left: -5vh;
+  top: 169px;
+  z-index: 0;
+}
+
+.phone-img {
+  background-color: #000;
+}
+.phone-img::before{
+  content:""; 
+  background-image: url('./assets/img/Elements_Phone.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 44vh;
+  height: 95vh;
+  display: block;
+  position: absolute;
+  left: calc( 20% - 1vh);;
+  top: 21vh;
+  z-index: 2;
+}
+
+.whats3-img {
+  background-image: url('./assets/img/Elements_WhatsApp_Logo_Paper.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 5vh;
+ }
+
+ .pais-img {
+  background-image: url('./assets/img/Elements_Flag.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 5vh;
+ }
+
+.whats2-img {
+  background-image: url('./assets/img/Elements_WhatsApp_Logo_Paper.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 5vh;
+ }
+
+ .note-img {
+  background-image: url('./assets/img/Elements_Notepad.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 5vh;
+ }
+
+ .coin2-img {
+  background-image: url('./assets/img/Elements_Coin.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 5vh;
+ }
+
+ .check-img {
+  background-image: url('./assets/img/Elements_Checkmark.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 5vh;
+ }
+
+
+.nube-img {
+ background-color: #000;
+}
+.nube-img::before{
+  content:""; 
+  background-image: url('./assets/img/Elements_Cloud.svg');
+  background-size: 100%;
+  width: 231px;
+  height: 20vh;
+  display: block;
+  position: absolute;
+  top: 25vh;
+  left: -13vh;
+  z-index: 1;
+}
+
+
+.nube2-img {
+  background-image: url('./assets/img/Elements_Cloud.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: -9vh;
+  background-position-y: 10vh;
+  width: 231px;
+  height: 32vh;
+  display: block;
+  position: static;
+ }
+
+ .senora-img {
+  background-image: url('./assets/img/Elements_Grandma.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 365px;
+  height: 50vh;
+  margin-left: 57vh;
+  margin-top: -15vh;
+ }
+
+
+ .senoracel-img {
+  color: #000;
+ }
+ .senoracel-img::before{
+   content:""; 
+   background-image: url('./assets/img/Elements_Woman_Cel_WhatsApp.png');
+   background-size: 100%;
+   width: 78vh;
+   height: 78vh;
+   display: block;
+   position: absolute;
+   top: 269vh;
+   left: -8vh;
+   z-index: 1;
+ }
+
+ .plane2-img {
+  color: #000;
+ }
+ .plane2-img::before{
+   content:""; 
+   background-image: url('./assets/img/Airplane2.svg');
+   background-size: 100%;
+   background-repeat: no-repeat;
+   width: 173vh;
+   height: 46vh;
+   display: block;
+   position: absolute;
+   top: 328vh;
+   z-index: 1;
+ }
+
+ .chat-img {
+  background-image: url('./assets/img/Elements_Chat.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 291px;
+  height: 35vh;
+  margin-left: -4vh;
+  margin-top: 5vh;
+ }
+
+ .whats-img {
+  background-image: url('./assets/img/Elements_WhatsApp_Logo_Paper.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 8vh;
+ }
+
+ .lock-img {
+  background-image: url('./assets/img/Elements_lock.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 8vh;
+ }
+
+ .coin-img {
+  background-image: url('./assets/img/Elements_Coin.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 54px;
+  height: 8vh;
+ }
+
+
+.electra-img {
+  background-image: url('./assets/img/elektra.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 15vh;
+  height: 7vh;
+}
+
+.oxxo-img {
+  background-image: url('./assets/img/oxxo.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 9vh;
+  height: 7vh;
+}
+
+.coppel-img {
+  background-image: url('./assets/img/coppel.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: -46px;
+  width: 28vh;
+  height: 7vh;
+}
+
+.walmart-img {
+  background-image: url('./assets/img/walmart.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 19vh;
+  height: 7vh;
+}
+
+.banorte-img {
+  background-image: url('./assets/img/banorte.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 1vh;
+  width: 26vh;
+  height: 7vh;
+}
+
+.soriana-img {
+  background-image: url('./assets/img/soriana.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 18vh;
+  height: 7vh;
+}
+
+.farmacias-img {
+  background-image: url('./assets/img/farmacias_guadalajara.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 15vh;
+  height: 17vh;
+}
+
+.bbva-img {
+  background-image: url('./assets/img/BBVA.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 13vh;
+  height: 7vh;
+}
+
+
+
+

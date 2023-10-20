@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.91 73.99">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ebb631;
+      }
+
+      .cls-2 {
+        fill: #f4e3bd;
+      }
+
+      .cls-3 {
+        fill: #e9e8e8;
+      }
+
+      .cls-4 {
+        fill: #7ec242;
+      }
+
+      .cls-5 {
+        fill: #9a1c1f;
+      }
+
+      .cls-6 {
+        fill: #d4d3d2;
+      }
+
+      .cls-7 {
+        fill: #1f2020;
+      }
+
+      .cls-8 {
+        fill: #618789;
+      }
+
+      .cls-9 {
+        fill: #7a7a7a;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-3" d="m54.88,66.84H13.68c-.15,0-.27-.42-.27-.94l-.04-52.36c0-.1,9.9-3.7,9.9-3.7l31.61.16c.15,0,.27.42.27.94v54.96c0,.52-.12.94-.27.94h0Z"/>
+    <polygon class="cls-9" points="23.27 9.84 22.95 15.9 13.23 13.5 23.27 9.84"/>
+  </g>
+  <rect class="cls-4" x="18.25" y="19.29" width="31.24" height="4.94"/>
+  <rect class="cls-8" x="18.25" y="42.85" width="31.24" height=".57"/>
+  <rect class="cls-8" x="18.25" y="46.51" width="31.24" height=".57"/>
+  <rect class="cls-8" x="18.25" y="50.86" width="31.24" height=".57"/>
+  <rect class="cls-8" x="18.25" y="31.19" width="21.43" height=".57"/>
+  <rect class="cls-8" x="18.25" y="54.57" width="16.01" height=".57"/>
+  <rect class="cls-8" x="18.25" y="58.28" width="16.01" height=".57"/>
+  <rect class="cls-8" x="18.25" y="28.14" width="16.01" height=".57"/>
+  <rect class="cls-8" x="18.25" y="34.84" width="16.01" height=".57"/>
+  <rect class="cls-8" x="18.25" y="38.91" width="16.01" height=".57"/>
+  <g>
+    <g>
+      <path class="cls-2" d="m44.54,50.83l-8.46-6.34-1.15,6.55c1.27,1.45,2.11,2.4,2.67,3.04l6.93-3.25h.01Z"/>
+      <path class="cls-7" d="m37.61,54.08c-.56-.64-1.4-1.6-2.67-3.04l-.82,4.68,3.5-1.64h-.01Z"/>
+    </g>
+    <polygon class="cls-1" points="54.41 38.14 44.54 50.83 36.08 44.49 46.51 31.66 54.41 38.14"/>
+    <g>
+      <polygon class="cls-5" points="58.68 32.89 50.79 26.41 48.02 29.82 56.1 36.21 58.68 32.89"/>
+      <polygon class="cls-6" points="48.02 29.82 45.76 32.59 54.17 38.68 56.1 36.21 48.02 29.82"/>
+    </g>
+  </g>
+</svg>
