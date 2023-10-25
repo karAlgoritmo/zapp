@@ -197,6 +197,9 @@ function App() {
             <div className='col-10 p-5'>
               <p className='text-big-black3'>Descubre la <span className='text-big-green mx-2'> nueva </span> forma fácil, rápida y segura</p>
               <p className='text-big-black3'>de enviar dinero a mexico</p>
+              <iframe src="" height='500' width='100%'>
+
+              </iframe>
             </div>
         </section>
       </section>
