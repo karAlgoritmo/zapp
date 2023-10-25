@@ -36,15 +36,8 @@ hr {
   opacity: inherit;
 }
 
-.seccionOne {
-  background-color: #0BBE5E;
-  width: auto;
-  height: 86vh;
-}
-
 .seccionTwo {
   background-color: #f7f9fa;
-  padding-top: 20vh;
 }
 
 .seccionThree {
@@ -52,7 +45,7 @@ hr {
 }
 
 .seccionFour {
-  background-color: #02c6cc;
+  background-color: #f7f9fa;
 }
 
 .seccionFive {
@@ -61,7 +54,7 @@ hr {
 
 .conttextone {
   position: absolute;
-  top: 12vh;
+  top: 20vh;
   right: 9vh;
 }
 
@@ -70,6 +63,13 @@ hr {
   font-size: 16px;
   color: #000;
   margin-bottom: 0px;
+}
+
+.text-big-white1 {
+  font-family: 'grotesk';
+  font-size: 88px;
+  color: #fff;
+  margin-bottom: -23px;
 }
 
 .text-big-white {
@@ -82,21 +82,29 @@ hr {
 .text-mid-white {
   color: #fff;
   font-family: 'grotesk';
-  font-size: 31px;
+  font-size: 48px;
   margin-bottom: 0px;
 }
 
 .text-lit-white {
   color: #fff;
-  font-family: 'grotesk';
+  font-family: 'lato-bold';
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.text-lit-white2 {
+  color: #fff;
+  font-family: 'lato-bold';
   font-size: 12px;
+  margin-left: 15px;
   margin-bottom: 0px;
 }
 
 .text-big-black {
   color: #000;
   font-family: 'grotesk';
-  font-size: 40px;
+  font-size: 70px;
   padding: 5vh;
 }
 
@@ -109,7 +117,7 @@ hr {
 
 .text-lit-black {
   color: #000;
-  font-family: 'grotesk';
+  font-family: 'lato-bold';
   font-size: 12px;
 }
 
@@ -121,21 +129,28 @@ hr {
 
 .text-lit-black2 {
   color: #000;
-  font-family: 'grotesk';
-  font-size: 20px;
+  font-family: 'lato-bold';
+  font-size: 22px;
   margin-bottom: 0px;
 }
 
 .text-big-black3 {
   color: #000;
-  font-family: 'grotesk';
-  font-size: 45px;
+  font-family: 'lato-bold';
+  font-size: 60px;
   margin-bottom: 0px;
 }
 
 .text-lit-black4 {
   color: #000;
-  font-family: 'grotesk';
+  font-family: 'lato-bold';
+  font-size: 23px;
+  margin-bottom: 0px;
+}
+
+.text-lit-black5 {
+  color: #000;
+  font-family: 'lato-bold';
   font-size: 23px;
   margin-bottom: 0px;
 }
@@ -157,21 +172,30 @@ hr {
 .text-big-green {
   color: #0BBE5E;
   font-family: 'grotesk';
-  font-size: 45px;
+  font-size: 60px;
   margin-bottom: 0px;
 }
 
 .card {
   background-color: #9AE8EB;
   border-radius: 15px;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.card2 {
+  background-color: #9AE8EB;
+  border-radius: 15px;
+  margin-left: 5vh;
+  margin-right: 5vh;
 }
 
 .card-white {
   background-color: #fff;
   border-radius: 15px;
   position: absolute;
-  top: 54vh;
-  left: 97vh;
+  top: 65vh;
+  left: 76vh;
   z-index: 2;
 }
 
@@ -181,104 +205,68 @@ hr {
   background-repeat: no-repeat;
   width: 24vh;
   height: 5vh;
- }
+}
 
- .zapp2-img {
+.zapp2-img {
   background-image: url('./assets/img/zapp.svg');
   background-size: 100%;
   background-repeat: no-repeat;
   width: 24vh;
   height: 5vh;
- }
+}
 
- .uni-img {
+.uni-img {
   background-image: url('./assets/img/uni.png');
   background-size: 100%;
   background-repeat: no-repeat;
   width: 15vh;
   height: 5vh;
   margin-left: 34vh;
- }
+}
 
- .btnwhats-img {
+.btnwhats-img {
   background-image: url('./assets/img/Elements_Button.svg');
   background-size: 100%;
   background-repeat: no-repeat;
   width: 40vh;
   height: 11vh;
- }
-
-
-.edificios-img {
-  background-color: #000;
-}
-.edificios-img::before{
-  content:""; 
-  background-image: url('./assets/img/Elements_Skyline.svg');
-  background-size: 104%;
-  width: 219vh;
-  height: 80vh;
-  display: block;
-  position: absolute;
-  left: -5vh;
-  top: 169px;
-  z-index: 0;
 }
 
-.phone-img {
-  background-color: #000;
-}
-.phone-img::before{
-  content:""; 
-  background-image: url('./assets/img/Elements_Phone.svg');
+.btnwhats2-img {
+  background-image: url('./assets/img/Elements_Button.svg');
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 44vh;
-  height: 95vh;
-  display: block;
-  position: absolute;
-  left: calc( 20% - 1vh);;
-  top: 21vh;
-  z-index: 2;
+  width: 40vh;
+  height: 11vh;
 }
 
-.whats3-img {
-  background-image: url('./assets/img/Elements_WhatsApp_Logo_Paper.png');
+.btnwhats3-img {
+  background-image: url('./assets/img/Elements_Button.svg');
   background-size: 100%;
   background-repeat: no-repeat;
-  position: absolute;
-  width: 156px;
-  height: 19vh;
-  top: 40vh;
-  left: 159vh;
- }
+  width: 40vh;
+  height: 11vh;
+}
 
- .pais-img {
-  background-image: url('./assets/img/Elements_Flag.svg');
+
+.fondoverde-img {
+  background-image: url('./assets/img/zapp1.svg');
+  background-color: #f7f9fa;
   background-size: 100%;
   background-repeat: no-repeat;
-  position: absolute;
-  top: 62vh;
-  left: 196vh;
-  width: 73px;
-  height: 10vh;
- }
+  width: 100%;
+  height: 108vh;
+}
 
- .plane-img {
-  color: #000;
- }
- .plane-img::before{
-   content:""; 
-   background-image: url('./assets/img/Airplane2.svg');
-   background-size: 100%;
-   background-repeat: no-repeat;
-   width: 195vh;
-   height: 46vh;
-   display: block;
-   position: absolute;
-   top: 63vh;
-   z-index: 1;
- }
+.fondoazul-img {
+  background-image: url('./assets/img/Zapp4.svg');
+  background-color: #f7f9fa;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 106vh;
+}
+
 
 .whats2-img {
   background-image: url('./assets/img/Elements_WhatsApp_Logo_Paper.png');
@@ -286,144 +274,75 @@ hr {
   background-repeat: no-repeat;
   width: 35px;
   height: 5vh;
- } 
+} 
 
- .note-img {
+.note-img {
   background-image: url('./assets/img/Elements_Notepad.svg');
   background-size: 100%;
   background-repeat: no-repeat;
   width: 35px;
   height: 5vh;
- }
+}
 
- .coin2-img {
+.coin2-img {
   background-image: url('./assets/img/Elements_Coin.svg');
   background-size: 100%;
   background-repeat: no-repeat;
   width: 35px;
   height: 5vh;
- }
+}
 
- .check-img {
+.check-img {
   background-image: url('./assets/img/Elements_Checkmark.svg');
   background-size: 100%;
   background-repeat: no-repeat;
   width: 35px;
   height: 5vh;
- }
-
-
-.nube-img {
- background-color: #000;
-}
-.nube-img::before{
-  content:""; 
-  background-image: url('./assets/img/Elements_Cloud.svg');
-  background-size: 100%;
-  width: 231px;
-  height: 20vh;
-  display: block;
-  position: absolute;
-  top: 25vh;
-  left: -13vh;
-  z-index: 1;
 }
 
 
-.nube2-img {
-  background-image: url('./assets/img/Elements_Cloud.svg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position-x: -9vh;
-  background-position-y: 10vh;
-  width: 231px;
-  height: 32vh;
-  display: block;
-  position: static;
- }
-
- .senora-img {
-  background-image: url('./assets/img/Elements_Grandma.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 365px;
-  height: 50vh;
-  margin-left: 57vh;
-  margin-top: -15vh;
- }
-
-
- .senoracel-img {
-  color: #000;
- }
- .senoracel-img::before{
-   content:""; 
-   background-image: url('./assets/img/Elements_Woman_Cel_WhatsApp.png');
-   background-size: 100%;
-   width: 78vh;
-   height: 78vh;
-   display: block;
-   position: absolute;
-   top: 269vh;
-   left: -8vh;
-   z-index: 1;
- }
-
- .plane2-img {
-  color: #000;
- }
- .plane2-img::before{
-   content:""; 
-   background-image: url('./assets/img/Airplane2.svg');
-   background-size: 100%;
-   background-repeat: no-repeat;
-   width: 173vh;
-   height: 46vh;
-   display: block;
-   position: absolute;
-   top: 328vh;
-   z-index: 1;
- }
-
- .chat-img {
+.chat-img {
   background-image: url('./assets/img/Elements_Chat.svg');
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 291px;
+  display: block;
+  width: 362px;
   height: 35vh;
-  margin-left: -4vh;
-  margin-top: 5vh;
- }
+}
 
- .whats-img {
+.whats-img {
   background-image: url('./assets/img/Elements_WhatsApp_Logo_Paper.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  display: block;
   width: 54px;
   height: 8vh;
- }
+}
 
- .lock-img {
+.lock-img {
   background-image: url('./assets/img/Elements_lock.svg');
   background-size: 100%;
   background-repeat: no-repeat;
+  display: block;
   width: 54px;
   height: 8vh;
- }
+}
 
- .coin-img {
+.coin-img {
   background-image: url('./assets/img/Elements_Coin.svg');
   background-size: 100%;
   background-repeat: no-repeat;
+  display: block;
   width: 54px;
   height: 8vh;
- }
+}
 
 
 .electra-img {
   background-image: url('./assets/img/elektra.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  display: block;
   width: 15vh;
   height: 7vh;
 }
@@ -432,6 +351,7 @@ hr {
   background-image: url('./assets/img/oxxo.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  display: block;
   width: 9vh;
   height: 7vh;
 }
@@ -440,15 +360,17 @@ hr {
   background-image: url('./assets/img/coppel.png');
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position-y: -46px;
-  width: 28vh;
-  height: 7vh;
+  display: block;
+  background-position-y: -45px;
+  width: 22vh;
+  height: 12vh;
 }
 
 .walmart-img {
   background-image: url('./assets/img/walmart.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  display: block;
   width: 19vh;
   height: 7vh;
 }
@@ -457,6 +379,7 @@ hr {
   background-image: url('./assets/img/banorte.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  display: block;
   background-position-y: 1vh;
   width: 26vh;
   height: 7vh;
@@ -466,6 +389,7 @@ hr {
   background-image: url('./assets/img/soriana.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  display: block;
   width: 18vh;
   height: 7vh;
 }
@@ -474,6 +398,7 @@ hr {
   background-image: url('./assets/img/farmacias_guadalajara.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  display: block;
   width: 15vh;
   height: 17vh;
 }
@@ -482,10 +407,3766 @@ hr {
   background-image: url('./assets/img/BBVA.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  display: block;
   width: 13vh;
   height: 7vh;
 }
 
+@media screen and (max-width:1800px) {
+
+  .card {
+    width: 34vh;
+    height: 20vh;
+  }
+
+  .card2 {
+    width: 29vh;
+    height: 21vh;
+}
+
+  .card-white {
+    top: 62vh;
+    left: 71vh;
+  }
+
+  .conttextone{
+    top: 15vh;
+    right: 9vh;
+  }
+
+  .whats-img {
+    width: 55px;
+    height: 7vh;
+  }
+
+  .whats2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .fondoverde-img {
+    height: 100vh;
+  }
+
+  .card-title {
+    font-size: 25px;
+  }
+
+  .text-big-white {
+    font-size: 67px;
+  }
+
+  .text-big-white1{
+    font-size: 80px;
+    margin-bottom: -8px;
+  }
+
+  .text-mid-white {
+    font-size: 50px;
+  }
+
+  .text-lit-white {
+    font-size: 20px;
+  }
+
+  .text-lit-white2 {
+    font-size: 10px;
+}
+
+  .text-big-black {
+    font-size: 74px;
+  }
+
+  .text-big-black2 {
+    font-size: 50px;
+ }
+
+ .text-big-black3 {
+    font-size: 60px;
+  }
 
 
+  .text-mid-black {
+    font-size: 40px;
+  }
 
+  .text-big-green {
+    font-size: 60px;
+  }
+
+  .text-mid-green {
+    font-size: 30px;
+  }
+
+  .text-mid-green2 {
+    font-size: 40px;
+  }
+
+  .text-lit-black {
+    font-size: 18px;
+  }
+
+  .text-lit-black2 {
+    font-size: 28px;
+  }
+
+  .text-lit-black4 {
+    font-size: 18px;
+  }
+
+  .text-lit-black5 {
+    font-size: 16px;
+  }
+
+  .btnwhats-img {
+    width: 26vh;
+    height: 8vh;
+  }
+
+  .btnwhats3-img {
+    width: 36vh;
+    height: 9vh;
+  }
+
+  .electra-img {
+    width: 11vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 6vh;
+    height: 8vh;
+  }
+
+  .coppel-img {
+    width: 16vh;
+    height: 9vh;
+    background-position-y: -34px;
+  }
+
+  .walmart-img {
+    width: 13vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 16vh;
+    height: 7vh;
+    background-position-y: 8px;
+  }
+
+  .soriana-img {
+    width: 11vh;
+    height: 6vh;
+  }
+
+  .farmacias-img {
+    width: 11vh;
+    height: 12vh;
+  }
+
+  .bbva-img {
+    width: 9vh;
+    height: 6vh;
+    background-position-y: -10px;
+  }
+
+  .note-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .coin2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .check-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .lock-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .coin-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .fondoazul-img {
+    background-size: 100%;
+    height: 97vh;
+  }
+
+  .chat-img {
+    width: 222px;
+    height: 27vh;
+    background-position-y: 6vh;
+  }
+
+  .btnwhats2-img {
+    width: 36vh;
+    height: 10vh;
+  }
+
+  .zapp2-img{
+    width: 24vh;
+    height: 5vh;
+
+  }
+
+  .uni-img {
+    width: 14vh;
+    height: 5vh;
+    margin-left: 29vh;
+  }
+
+}
+
+@media screen and (max-width:1700px) {
+
+  .card {
+    width: 34vh;
+    height: 20vh;
+  }
+
+  .card2 {
+    width: 29vh;
+    height: 21vh;
+}
+
+  .card-white {
+    top: 62vh;
+    left: 71vh;
+  }
+
+  .conttextone{
+    top: 15vh;
+    right: 9vh;
+  }
+
+  .whats-img {
+    width: 55px;
+    height: 7vh;
+  }
+
+  .whats2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .fondoverde-img {
+    height: 100vh;
+  }
+
+  .card-title {
+    font-size: 25px;
+  }
+
+  .text-big-white {
+    font-size: 67px;
+  }
+
+  .text-big-white1{
+    font-size: 80px;
+    margin-bottom: -8px;
+  }
+
+  .text-mid-white {
+    font-size: 50px;
+  }
+
+  .text-lit-white {
+    font-size: 20px;
+  }
+
+  .text-lit-white2 {
+    font-size: 10px;
+}
+
+  .text-big-black {
+    font-size: 74px;
+  }
+
+  .text-big-black2 {
+    font-size: 50px;
+ }
+
+ .text-big-black3 {
+    font-size: 60px;
+  }
+
+
+  .text-mid-black {
+    font-size: 40px;
+  }
+
+  .text-big-green {
+    font-size: 60px;
+  }
+
+  .text-mid-green {
+    font-size: 30px;
+  }
+
+  .text-mid-green2 {
+    font-size: 40px;
+  }
+
+  .text-lit-black {
+    font-size: 18px;
+  }
+
+  .text-lit-black2 {
+    font-size: 28px;
+  }
+
+  .text-lit-black4 {
+    font-size: 18px;
+  }
+
+  .text-lit-black5 {
+    font-size: 16px;
+  }
+
+  .btnwhats-img {
+    width: 26vh;
+    height: 8vh;
+  }
+
+  .btnwhats3-img {
+    width: 36vh;
+    height: 9vh;
+  }
+
+  .electra-img {
+    width: 11vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 6vh;
+    height: 8vh;
+  }
+
+  .coppel-img {
+    width: 16vh;
+    height: 9vh;
+    background-position-y: -34px;
+  }
+
+  .walmart-img {
+    width: 13vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 16vh;
+    height: 7vh;
+    background-position-y: 8px;
+  }
+
+  .soriana-img {
+    width: 11vh;
+    height: 6vh;
+  }
+
+  .farmacias-img {
+    width: 11vh;
+    height: 12vh;
+  }
+
+  .bbva-img {
+    width: 9vh;
+    height: 6vh;
+    background-position-y: -10px;
+  }
+
+  .note-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .coin2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .check-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .lock-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .coin-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .fondoazul-img {
+    background-size: 100%;
+    height: 97vh;
+  }
+
+  .chat-img {
+    width: 222px;
+    height: 27vh;
+    background-position-y: 6vh;
+  }
+
+  .btnwhats2-img {
+    width: 36vh;
+    height: 10vh;
+  }
+
+  .zapp2-img{
+    width: 24vh;
+    height: 5vh;
+
+  }
+
+  .uni-img {
+    width: 14vh;
+    height: 5vh;
+    margin-left: 29vh;
+  }
+
+}
+
+@media screen and (max-width:1600px) {
+
+  .card {
+    width: 46vh;
+    height: 31vh;
+  }
+
+  .card2 {
+    width: 33vh;
+    height: 23vh;
+}
+
+  .card-white {
+    top: 77vh;
+    left: 92vh;
+  }
+
+  .conttextone{
+    top: 20vh;
+    right: 17vh;
+  }
+
+  .whats-img {
+    width: 55px;
+    height: 7vh;
+  }
+
+  .whats2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .fondoverde-img {
+    height: 123vh;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .text-big-white {
+    font-size: 38px;
+  }
+
+  .text-big-white1{
+    font-size: 65px;
+    margin-bottom: -8px;
+  }
+
+  .text-mid-white {
+    font-size: 30px;
+  }
+
+  .text-lit-white {
+    font-size: 12px;
+  }
+
+  .text-lit-white2 {
+    font-size: 10px;
+}
+
+  .text-big-black {
+    font-size: 56px;
+  }
+
+  .text-big-black2 {
+    font-size: 36px;
+ }
+
+ .text-big-black3 {
+    font-size: 42px;
+  }
+
+
+  .text-mid-black {
+    font-size: 30px;
+  }
+
+  .text-big-green {
+    font-size: 42px;
+  }
+
+  .text-mid-green {
+    font-size: 30px;
+  }
+
+  .text-mid-green2 {
+    font-size: 30px;
+  }
+
+  .text-lit-black {
+    font-size: 18px;
+  }
+
+  .text-lit-black2 {
+    font-size: 20px;
+  }
+
+  .text-lit-black4 {
+    font-size: 18px;
+  }
+
+  .text-lit-black5 {
+    font-size: 11px;
+  }
+
+  .btnwhats-img {
+    width: 40vh;
+    height: 10vh;
+  }
+
+  .btnwhats3-img {
+    width: 36vh;
+    height: 9vh;
+  }
+
+  .electra-img {
+    width: 11vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 6vh;
+    height: 8vh;
+  }
+
+  .coppel-img {
+    width: 16vh;
+    height: 9vh;
+    background-position-y: -23px;
+  }
+
+  .walmart-img {
+    width: 13vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 16vh;
+    height: 7vh;
+    background-position-y: 8px;
+  }
+
+  .soriana-img {
+    width: 11vh;
+    height: 6vh;
+  }
+
+  .farmacias-img {
+    width: 11vh;
+    height: 12vh;
+  }
+
+  .bbva-img {
+    width: 9vh;
+    height: 6vh;
+    background-position-y: -10px;
+  }
+
+  .note-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .coin2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .check-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .lock-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .coin-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .fondoazul-img {
+    background-size: 100%;
+    height: 128vh;
+  }
+
+  .chat-img {
+    width: 222px;
+    height: 32vh;
+    background-position-y: 6vh;
+  }
+  .btnwhats2-img {
+    width: 36vh;
+    height: 10vh;
+  }
+
+  .zapp2-img{
+    width: 24vh;
+    height: 5vh;
+
+  }
+
+  .uni-img {
+    width: 14vh;
+    height: 5vh;
+    margin-left: 29vh;
+  }
+
+}
+
+@media screen and (max-width:1500px) {
+
+  .card {
+    width: 34vh;
+    height: 20vh;
+  }
+
+  .card2 {
+    width: 17vh;
+    height: 21vh;
+}
+
+  .card-white {
+    top: 50vh;
+    left: 58vh;
+  }
+
+  .conttextone{
+    top: 15vh;
+    right: 9vh;
+  }
+
+  .plane-img::before {
+    width: 124vh;
+    height: 41vh;
+    top: 56vh;
+  }
+
+  .whats-img {
+    width: 55px;
+    height: 7vh;
+  }
+
+  .whats2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .whats3-img {
+    width: 136px;
+    height: 22vh;
+    top: 43vh;
+    left: 102vh;
+  }
+
+  .pais-img {
+    top: 54vh;
+    left: 125vh;
+    width: 64px;
+    height: 10vh;
+  }
+
+  .fondoverde-img {
+    height: 80vh;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .text-big-white {
+    font-size: 38px;
+  }
+
+  .text-big-white1{
+    font-size: 65px;
+    margin-bottom: -8px;
+  }
+
+  .text-mid-white {
+    font-size: 30px;
+  }
+
+  .text-lit-white {
+    font-size: 12px;
+  }
+
+  .text-lit-white2 {
+    font-size: 10px;
+}
+
+  .text-big-black {
+    font-size: 56px;
+  }
+
+  .text-big-black2 {
+    font-size: 36px;
+ }
+
+ .text-big-black3 {
+    font-size: 42px;
+  }
+
+
+  .text-mid-black {
+    font-size: 30px;
+  }
+
+  .text-big-green {
+    font-size: 42px;
+  }
+
+  .text-mid-green {
+    font-size: 30px;
+  }
+
+  .text-mid-green2 {
+    font-size: 30px;
+  }
+
+  .text-lit-black {
+    font-size: 18px;
+  }
+
+  .text-lit-black2 {
+    font-size: 20px;
+  }
+
+  .text-lit-black4 {
+    font-size: 18px;
+  }
+
+  .text-lit-black5 {
+    font-size: 11px;
+  }
+
+  .btnwhats-img {
+    width: 26vh;
+    height: 8vh;
+  }
+
+  .btnwhats3-img {
+    width: 36vh;
+    height: 9vh;
+  }
+
+  .electra-img {
+    width: 11vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 6vh;
+    height: 8vh;
+  }
+
+  .coppel-img {
+    width: 16vh;
+    height: 9vh;
+    background-position-y: -34px;
+  }
+
+  .walmart-img {
+    width: 13vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 16vh;
+    height: 7vh;
+    background-position-y: 8px;
+  }
+
+  .soriana-img {
+    width: 11vh;
+    height: 6vh;
+  }
+
+  .farmacias-img {
+    width: 11vh;
+    height: 12vh;
+  }
+
+  .bbva-img {
+    width: 9vh;
+    height: 6vh;
+    background-position-y: -10px;
+  }
+
+  .note-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .coin2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .check-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .lock-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .coin-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .fondoazul-img {
+    background-size: 104%;
+    height: 91vh;
+  }
+
+  .chat-img {
+    width: 222px;
+    height: 27vh;
+    background-position-y: 6vh;
+  }
+
+  .plane2-img::before {
+    width: 111vh;
+    top: 231vh;
+    height: 38vh;
+  }
+
+  .btnwhats2-img {
+    width: 36vh;
+    height: 10vh;
+  }
+
+  .zapp2-img{
+    width: 24vh;
+    height: 5vh;
+
+  }
+
+  .uni-img {
+    width: 14vh;
+    height: 5vh;
+    margin-left: 29vh;
+  }
+
+}
+
+@media screen and (max-width:1400px) {
+
+  .card {
+    width: 29vh;
+    height: 19vh;
+  }
+
+  .card2 {
+    width: 17vh;
+    height: 21vh;
+}
+
+  .card-white {
+    top: 47vh;
+    left: 54vh;
+  }
+
+  .conttextone{
+    top: 15vh;
+    right: 9vh;
+  }
+
+  .whats-img {
+    width: 55px;
+    height: 7vh;
+  }
+
+  .whats2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .fondoverde-img {
+    height: 74vh;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .text-big-white {
+    font-size: 38px;
+  }
+
+  .text-big-white1{
+    font-size: 61px;
+    margin-bottom: -8px;
+  }
+
+  .text-mid-white {
+    font-size: 30px;
+  }
+
+  .text-lit-white {
+    font-size: 12px;
+  }
+
+  .text-lit-white2 {
+    font-size: 10px;
+}
+
+  .text-big-black {
+    font-size: 56px;
+  }
+
+  .text-big-black2 {
+    font-size: 36px;
+ }
+
+ .text-big-black3 {
+    font-size: 42px;
+  }
+
+
+  .text-mid-black {
+    font-size: 30px;
+  }
+
+  .text-big-green {
+    font-size: 42px;
+  }
+
+  .text-mid-green {
+    font-size: 30px;
+  }
+
+  .text-mid-green2 {
+    font-size: 30px;
+  }
+
+  .text-lit-black {
+    font-size: 18px;
+  }
+
+  .text-lit-black2 {
+    font-size: 20px;
+  }
+
+  .text-lit-black4 {
+    font-size: 18px;
+  }
+
+  .text-lit-black5 {
+    font-size: 11px;
+  }
+
+  .btnwhats-img {
+    width: 26vh;
+    height: 8vh;
+  }
+
+  .btnwhats3-img {
+    width: 36vh;
+    height: 9vh;
+  }
+
+  .electra-img {
+    width: 11vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 6vh;
+    height: 8vh;
+  }
+
+  .coppel-img {
+    width: 16vh;
+    height: 9vh;
+    background-position-y: -34px;
+  }
+
+  .walmart-img {
+    width: 13vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 16vh;
+    height: 7vh;
+    background-position-y: 8px;
+  }
+
+  .soriana-img {
+    width: 11vh;
+    height: 6vh;
+  }
+
+  .farmacias-img {
+    width: 11vh;
+    height: 12vh;
+  }
+
+  .bbva-img {
+    width: 9vh;
+    height: 6vh;
+    background-position-y: -10px;
+  }
+
+  .note-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .coin2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .check-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .lock-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .coin-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .fondoazul-img {
+    background-size: 83%;
+    height: 63vh;
+  }
+
+  .chat-img {
+    width: 222px;
+    height: 27vh;
+    background-position-y: 6vh;
+  }
+
+  .btnwhats2-img {
+    width: 36vh;
+    height: 10vh;
+  }
+
+  .zapp2-img{
+    width: 24vh;
+    height: 5vh;
+
+  }
+
+  .uni-img {
+    width: 14vh;
+    height: 5vh;
+    margin-left: 29vh;
+  }
+
+}
+
+@media screen and (max-width:1300px) {
+
+  .card {
+    width: 36vh;
+    height: 23vh;
+  }
+
+  .card2 {
+    width: 26vh;
+    height: 24vh;
+}
+
+  .card-white {
+    top: 59vh;
+    left: 70vh;
+  }
+
+  .conttextone{
+    top: 10vh;
+    right: 9vh;
+  }
+
+  .plane-img::before {
+    width: 107vh;
+    height: 41vh;
+    top: 50vh;
+  }
+
+  .whats-img {
+    width: 55px;
+    height: 7vh;
+  }
+
+  .whats2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .whats3-img {
+    width: 128px;
+    height: 22vh;
+    top: 38vh;
+    left: 88vh;
+  }
+
+  .pais-img {
+    top: 48vh;
+    left: 108vh;
+    width: 64px;
+    height: 10vh;
+  }
+
+  .fondoverde-img {
+    height: 100vh;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .text-big-white {
+    font-size: 38px;
+  }
+
+  .text-big-white1{
+    font-size: 57px;
+    margin-bottom: -8px;
+  }
+
+  .text-mid-white {
+    font-size: 30px;
+  }
+
+  .text-lit-white {
+    font-size: 12px;
+  }
+
+  .text-lit-white2 {
+    font-size: 10px;
+}
+
+  .text-big-black {
+    font-size: 56px;
+  }
+
+  .text-big-black2 {
+    font-size: 36px;
+ }
+
+ .text-big-black3 {
+    font-size: 42px;
+  }
+
+
+  .text-mid-black {
+    font-size: 30px;
+  }
+
+  .text-big-green {
+    font-size: 42px;
+  }
+
+  .text-mid-green {
+    font-size: 30px;
+  }
+
+  .text-mid-green2 {
+    font-size: 30px;
+  }
+
+  .text-lit-black {
+    font-size: 18px;
+  }
+
+  .text-lit-black2 {
+    font-size: 20px;
+  }
+
+  .text-lit-black4 {
+    font-size: 18px;
+  }
+
+  .text-lit-black5 {
+    font-size: 11px;
+  }
+
+  .btnwhats-img {
+    width: 26vh;
+    height: 8vh;
+  }
+
+  .btnwhats3-img {
+    width: 36vh;
+    height: 9vh;
+  }
+
+  .electra-img {
+    width: 11vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 6vh;
+    height: 8vh;
+  }
+
+  .coppel-img {
+    width: 16vh;
+    height: 9vh;
+    background-position-y: -34px;
+  }
+
+  .walmart-img {
+    width: 13vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 16vh;
+    height: 7vh;
+    background-position-y: 8px;
+  }
+
+  .soriana-img {
+    width: 11vh;
+    height: 6vh;
+  }
+
+  .farmacias-img {
+    width: 11vh;
+    height: 12vh;
+  }
+
+  .bbva-img {
+    width: 9vh;
+    height: 6vh;
+    background-position-y: -10px;
+  }
+
+  .note-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .coin2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .check-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .lock-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .coin-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .fondoazul-img {
+    background-size: 100%;
+    height: 101vh;
+
+  }
+
+  .chat-img {
+    width: 222px;
+    height: 27vh;
+    background-position-y: 6vh;
+  }
+
+  .plane2-img::before {
+    width: 111vh;
+    top: 231vh;
+    height: 38vh;
+  }
+
+  .btnwhats2-img {
+    width: 36vh;
+    height: 10vh;
+  }
+
+  .zapp2-img{
+    width: 24vh;
+    height: 5vh;
+
+  }
+
+  .uni-img {
+    width: 14vh;
+    height: 5vh;
+    margin-left: 29vh;
+  }
+
+}
+
+@media screen and (max-width:1280px) {
+
+  .card {
+    width: 42vh;
+    height: 27vh;
+  }
+
+  .card2 {
+    width: 24vh;
+    height: 27vh;
+}
+
+  .card-white {
+    top: 56vh;
+    left: 68vh;
+  }
+
+  .conttextone{
+    top: 10vh;
+    right: 9vh;
+  }
+
+
+  .whats-img {
+    width: 55px;
+    height: 7vh;
+  }
+
+  .whats2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+
+  .fondoverde-img {
+    height: 105vh;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .text-big-white {
+    font-size: 38px;
+  }
+
+  .text-big-white1{
+    font-size: 57px;
+    margin-bottom: -8px;
+  }
+
+  .text-mid-white {
+    font-size: 30px;
+  }
+
+  .text-lit-white {
+    font-size: 12px;
+  }
+
+  .text-lit-white2 {
+    font-size: 10px;
+}
+
+  .text-big-black {
+    font-size: 56px;
+  }
+
+  .text-big-black2 {
+    font-size: 36px;
+ }
+
+ .text-big-black3 {
+    font-size: 42px;
+  }
+
+
+  .text-mid-black {
+    font-size: 30px;
+  }
+
+  .text-big-green {
+    font-size: 42px;
+  }
+
+  .text-mid-green {
+    font-size: 30px;
+  }
+
+  .text-mid-green2 {
+    font-size: 30px;
+  }
+
+  .text-lit-black {
+    font-size: 18px;
+  }
+
+  .text-lit-black2 {
+    font-size: 20px;
+  }
+
+  .text-lit-black4 {
+    font-size: 18px;
+  }
+
+  .text-lit-black5 {
+    font-size: 11px;
+  }
+
+  .btnwhats-img {
+    width: 34vh;
+    height: 8vh;
+  }
+
+  .btnwhats3-img {
+    width: 36vh;
+    height: 9vh;
+  }
+
+  .electra-img {
+    width: 14vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 8vh;
+    height: 8vh;
+  }
+
+  .coppel-img {
+    width: 21vh;
+    height: 9vh;
+    background-position-y: -34px;
+  }
+
+  .walmart-img {
+    width: 17vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 22vh;
+    height: 7vh;
+    background-position-y: 8px;
+  }
+
+  .soriana-img {
+    width: 18vh;
+    height: 6vh;
+  }
+
+  .farmacias-img {
+    width: 18vh;
+    height: 12vh;
+  }
+
+  .bbva-img {
+    width: 14vh;
+    height: 6vh;
+    background-position-y: -13px;
+  }
+
+  .note-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .coin2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .check-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .lock-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .coin-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .fondoazul-img {
+    background-size: 100%;
+    height: 98vh;
+  }
+
+  .chat-img {
+    width: 222px;
+    height: 33vh;
+    background-position-y: 6vh;
+  }
+
+  .btnwhats2-img {
+    width: 36vh;
+    height: 10vh;
+  }
+
+  .zapp2-img{
+    width: 24vh;
+    height: 5vh;
+
+  }
+
+  .uni-img {
+    width: 14vh;
+    height: 5vh;
+    margin-left: 29vh;
+  }
+
+}
+
+@media screen and (max-width:1200px) {
+
+  .card {
+    width: 36vh;
+    height: 23vh;
+  }
+
+  .card2 {
+    width: 25vh;
+    height: 25vh;
+}
+
+  .card-white {
+    top: 53vh;
+    left: 64vh;
+  }
+
+  .conttextone{
+    top: 13vh;
+    right: 10vh;
+  }
+
+  .plane-img::before {
+    width: 99vh;
+    height: 41vh;
+    top: 45vh;
+  }
+
+  .whats-img {
+    width: 55px;
+    height: 7vh;
+  }
+
+  .whats2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .fondoverde-img {
+    height: 91vh;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .text-big-white {
+    font-size: 38px;
+  }
+
+  .text-big-white1{
+    font-size: 50px;
+    margin-bottom: -8px;
+  }
+
+  .text-mid-white {
+    font-size: 30px;
+  }
+
+  .text-lit-white {
+    font-size: 12px;
+  }
+
+  .text-lit-white2 {
+    font-size: 10px;
+}
+
+  .text-big-black {
+    font-size: 56px;
+  }
+
+  .text-big-black2 {
+    font-size: 33px;
+ }
+
+ .text-big-black3 {
+    font-size: 34px;
+  }
+
+
+  .text-mid-black {
+    font-size: 25px;
+  }
+
+  .text-big-green {
+    font-size: 34px;
+  }
+
+  .text-mid-green {
+    font-size: 25px;
+  }
+
+  .text-mid-green2 {
+    font-size: 25px;
+  }
+
+  .text-lit-black {
+    font-size: 18px;
+  }
+
+  .text-lit-black2 {
+    font-size: 18px;
+  }
+
+  .text-lit-black4 {
+    font-size: 18px;
+  }
+
+  .text-lit-black5 {
+    font-size: 11px;
+  }
+
+  .btnwhats-img {
+    width: 25vh;
+    height: 6vh;
+  }
+
+  .btnwhats3-img {
+    width: 36vh;
+    height: 9vh;
+  }
+
+  .electra-img {
+    width: 14vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 8vh;
+    height: 8vh;
+  }
+
+  .coppel-img {
+    width: 21vh;
+    height: 9vh;
+    background-position-y: -34px;
+  }
+
+  .walmart-img {
+    width: 17vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 22vh;
+    height: 7vh;
+    background-position-y: 8px;
+  }
+
+  .soriana-img {
+    width: 18vh;
+    height: 6vh;
+  }
+
+  .farmacias-img {
+    width: 18vh;
+    height: 12vh;
+  }
+
+  .bbva-img {
+    width: 14vh;
+    height: 6vh;
+    background-position-y: -13px;
+  }
+
+  .note-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .coin2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .check-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .lock-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .coin-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .fondoazul-img {
+    background-size: 100%;
+    height: 94vh;
+  }
+
+  .chat-img {
+    width: 222px;
+    height: 27vh;
+    background-position-y: 6vh;
+  }
+
+  .btnwhats2-img {
+    width: 36vh;
+    height: 10vh;
+  }
+
+  .zapp2-img{
+    width: 24vh;
+    height: 5vh;
+
+  }
+
+  .uni-img {
+    width: 14vh;
+    height: 5vh;
+    margin-left: 17vh;
+  }
+
+}
+
+@media screen and (max-width:1100px) {
+
+  .card {
+    width: 35vh;
+    height: 23vh;
+  }
+
+  .card2 {
+    width: 24vh;
+    height: 26vh;
+}
+
+  .card-white {
+    top: 46vh;
+    left: 59vh;
+  }
+
+  .conttextone{
+    top: 10vh;
+    right: 9vh;
+  }
+
+  .whats-img {
+    width: 55px;
+    height: 7vh;
+  }
+
+  .whats2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .fondoverde-img {
+    height: 84vh;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .text-big-white {
+    font-size: 38px;
+  }
+
+  .text-big-white1{
+    font-size: 45px;
+    margin-bottom: -8px;
+  }
+
+  .text-mid-white {
+    font-size: 30px;
+  }
+
+  .text-lit-white {
+    font-size: 12px;
+  }
+
+  .text-lit-white2 {
+    font-size: 10px;
+}
+
+  .text-big-black {
+    font-size: 56px;
+  }
+
+  .text-big-black2 {
+    font-size: 33px;
+ }
+
+ .text-big-black3 {
+    font-size: 34px;
+  }
+
+
+  .text-mid-black {
+    font-size: 25px;
+  }
+
+  .text-big-green {
+    font-size: 34px;
+  }
+
+  .text-mid-green {
+    font-size: 25px;
+  }
+
+  .text-mid-green2 {
+    font-size: 25px;
+  }
+
+  .text-lit-black {
+    font-size: 18px;
+  }
+
+  .text-lit-black2 {
+    font-size: 18px;
+  }
+
+  .text-lit-black4 {
+    font-size: 18px;
+  }
+
+  .text-lit-black5 {
+    font-size: 11px;
+  }
+
+  .btnwhats-img {
+    width: 25vh;
+    height: 6vh;
+  }
+
+  .btnwhats3-img {
+    width: 36vh;
+    height: 9vh;
+  }
+
+  .electra-img {
+    width: 14vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 8vh;
+    height: 8vh;
+  }
+
+  .coppel-img {
+    width: 21vh;
+    height: 9vh;
+    background-position-y: -34px;
+  }
+
+  .walmart-img {
+    width: 17vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 22vh;
+    height: 7vh;
+    background-position-y: 8px;
+  }
+
+  .soriana-img {
+    width: 11vh;
+    height: 6vh;
+  }
+
+  .farmacias-img {
+    width: 18vh;
+    height: 12vh;
+  }
+
+  .bbva-img {
+    width: 11vh;
+    height: 6vh;
+    background-position-y: -10px;
+  }
+
+  .note-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .coin2-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .check-img {
+    width: 25px;
+    height: 6vh;
+  }
+
+  .lock-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .coin-img {
+    width: 50px;
+    height: 7vh;
+  }
+
+  .fondoazul-img {
+    background-size: 100%;
+    height: 87vh;
+  }
+
+  .chat-img {
+    width: 222px;
+    height: 27vh;
+    background-position-y: 6vh;
+  }
+
+  .btnwhats2-img {
+    width: 36vh;
+    height: 10vh;
+  }
+
+  .zapp2-img{
+    width: 24vh;
+    height: 5vh;
+
+  }
+
+  .uni-img {
+    width: 14vh;
+    height: 5vh;
+    margin-left: 17vh;
+  }
+
+}
+
+@media screen and (max-width:1024px) {
+
+  .card {
+    width: 40vh;
+    height: 25vh;
+  }
+
+  .card2 {
+    width: 30vh;
+    height: 33vh;
+  }
+
+  .card-white {
+    top: 63vh;
+    left: 73vh;
+  }
+
+  .conttextone{
+    top: 10vh;
+    right: 9vh;
+  }
+
+  .whats-img {
+    width: 55px;
+    height: 10vh;
+  }
+
+  .whats2-img {
+    width: 14px;
+    height: 5vh;
+  }
+
+
+  .fondoverde-img {
+    height: 100vh;
+  }
+
+  .card-title {
+    font-size: 16px;
+    margin-bottom: -50px;
+  }
+
+  .text-big-white {
+    font-size: 38px;
+  }
+
+  .text-big-white1{
+    font-size: 45px;
+    margin-bottom: -8px;
+  }
+
+  .text-mid-white {
+    font-size: 30px;
+  }
+
+  .text-lit-white {
+    font-size: 12px;
+  }
+
+  .text-lit-white2 {
+    font-size: 10px;
+}
+
+  .text-big-black {
+    font-size: 56px;
+  }
+
+  .text-big-black2 {
+    font-size: 29px;
+ }
+
+ .text-big-black3 {
+    font-size: 32px;
+  }
+
+
+  .text-mid-black {
+    font-size: 25px;
+  }
+
+  .text-big-green {
+    font-size: 32px;
+  }
+
+  .text-mid-green {
+    font-size: 19px;
+  }
+
+  .text-mid-green2 {
+    font-size: 25px;
+  }
+
+  .text-lit-black {
+    font-size: 8px;
+  }
+
+  .text-lit-black2 {
+    font-size: 16px;
+  }
+
+  .text-lit-black4 {
+    font-size: 12px;
+  }
+
+  .text-lit-black5 {
+    font-size: 11px;
+    margin-top: 34px;
+  }
+
+  .btnwhats-img {
+    width: 28vh;
+    height: 9vh;
+  }
+
+  .btnwhats3-img {
+    width: 28vh;
+    height: 6vh;
+  }
+
+  .electra-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 4vh;
+    height: 4vh;
+  }
+
+  .coppel-img {
+    width: 13vh;
+    height: 4vh;
+    background-position-y: -17px;
+  }
+
+  .walmart-img {
+    width: 11vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 12vh;
+    height: 7vh;
+    background-position-y: 8px;
+  }
+
+  .soriana-img {
+    width: 9vh;
+    height: 4vh;
+  }
+
+  .farmacias-img {
+    width: 9vh;
+    height: 7vh;
+  }
+
+  .bbva-img {
+    width: 6vh;
+    height: 6vh;
+    background-position-y: -5px;
+  }
+
+  .note-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .coin2-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .check-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .lock-img {
+    width: 50px;
+    height: 10vh;
+  }
+
+  .coin-img {
+    width: 50px;
+    height: 10vh;
+  }
+
+  .fondoazul-img {
+    background-size: 110%;
+    height: 113vh;
+  }
+
+  .chat-img {
+    width: 29vh;
+    height: 33vh;
+    background-position-y: 8vh;
+  }
+
+  .btnwhats2-img {
+    width: 24vh;
+    height: 7vh;
+  }
+
+  .zapp2-img{
+    width: 13vh;
+    height: 3vh;
+  }
+
+  .uni-img {
+    width: 8vh;
+    height: 5vh;
+    margin-left: 21vh;
+
+  }
+
+}
+
+@media screen and (max-width:912px) {
+  .card {
+    width: 223px;
+    height: 139px;
+  }
+
+  .card2 {
+    width: 276px;
+    height: 192px;
+  }
+
+  .card-white {
+    top: 28vh;
+    left: 25vh;
+  }
+
+  .conttextone{
+    top: 10vh;
+    right: 6vh;
+  }
+
+  .plane-img::before {
+    width: 97vh;
+    height: 26vh;
+    top: 45vh;
+  }
+
+  .whats-img {
+    width: 30px;
+    height: 5vh;
+  }
+
+  .whats2-img {
+    width: 14px;
+    height: 5vh;
+  }
+
+  .whats3-img {
+    width: 78px;
+    height: 8vh;
+    top: 35vh;
+    left: 79vh;
+  }
+
+  .pais-img {
+    top: 43vh;
+    left: 98vh;
+    width: 37px;
+    height: 8vh;
+  }
+
+  .fondoverde-img {
+    height: 40vh;
+  }
+
+  .card-title {
+    font-size: 16px;
+    margin-bottom: -50px;
+  }
+
+  .text-big-white {
+    font-size: 32px;
+  }
+
+  .text-big-white1{
+    font-size: 40px;
+    margin-bottom: -8px;
+  }
+
+  .text-mid-white {
+    font-size: 27px;
+  }
+
+  .text-lit-white {
+    font-size: 10px;
+  }
+
+  .text-lit-white2 {
+    font-size: 5px;
+}
+
+  .text-big-black {
+    font-size: 30px;
+  }
+
+  .text-big-black2 {
+    font-size: 21px;
+ }
+
+ .text-big-black3 {
+    font-size: 28px;
+  }
+
+
+  .text-mid-black {
+    font-size: 20px;
+  }
+
+  .text-big-green {
+    font-size: 28px;
+  }
+
+  .text-mid-green {
+    font-size: 19px;
+  }
+
+  .text-mid-green2 {
+    font-size: 20px;
+  }
+
+  .text-lit-black {
+    font-size: 8px;
+  }
+
+  .text-lit-black2 {
+    font-size: 12px;
+  }
+
+  .text-lit-black4 {
+    font-size: 12px;
+  }
+
+  .text-lit-black5 {
+    font-size: 11px;
+  }
+
+  .btnwhats-img {
+    width: 13vh;
+    height: 5vh;
+  }
+
+  .btnwhats3-img {
+    width: 28vh;
+    height: 6vh;
+  }
+
+  .electra-img {
+    width: 12vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 7vh;
+    height: 4vh;
+  }
+
+  .coppel-img {
+    width: 18vh;
+    height: 7vh;
+    background-position-y: -49px;
+  }
+
+  .walmart-img {
+    width: 14vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 14vh;
+    height: 7vh;
+    background-position-y: 8px;
+  }
+
+  .soriana-img {
+    width: 14vh;
+    height: 4vh;
+  }
+
+  .farmacias-img {
+    width: 10vh;
+    height: 7vh;
+  }
+
+  .bbva-img {
+    width: 12vh;
+    height: 6vh;
+    background-position-y: -13px;
+  }
+
+  .note-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .coin2-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .check-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .lock-img {
+    width: 25px;
+    height: 5vh;
+  }
+
+  .coin-img {
+    width: 25px;
+    height: 5vh;
+  }
+
+  .fondoazul-img {
+    background-size: 110%;
+    height: 45vh;
+  }
+
+  .chat-img {
+    width: 120px;
+    height: 20vh;
+    background-position-y: 4vh;
+  }
+
+  .btnwhats2-img {
+    width: 24vh;
+    height: 7vh;
+  }
+
+  .zapp2-img{
+    width: 13vh;
+    height: 3vh;
+  }
+
+  .uni-img {
+    width: 8vh;
+    height: 5vh;
+    margin-left: 21vh;
+
+  }
+
+}
+
+@media screen and (max-width:900px) {
+
+  .card {
+    width: 223px;
+    height: 139px;
+  }
+
+  .card2 {
+    width: 276px;
+    height: 192px;
+  }
+
+  .card-white {
+    top: 44vh;
+    left: 52vh;
+  }
+
+  .conttextone{
+    top: 10vh;
+    right: 6vh;
+  }
+
+  .plane-img::before {
+    width: 97vh;
+    height: 26vh;
+    top: 45vh;
+  }
+
+  .whats-img {
+    width: 30px;
+    height: 5vh;
+  }
+
+  .whats2-img {
+    width: 14px;
+    height: 5vh;
+  }
+
+  .whats3-img {
+    width: 78px;
+    height: 8vh;
+    top: 35vh;
+    left: 79vh;
+  }
+
+  .pais-img {
+    top: 43vh;
+    left: 98vh;
+    width: 37px;
+    height: 8vh;
+  }
+
+  .fondoverde-img {
+    height: 74vh;
+  }
+
+  .card-title {
+    font-size: 16px;
+    margin-bottom: -50px;
+  }
+
+  .text-big-white {
+    font-size: 32px;
+  }
+
+  .text-big-white1{
+    font-size: 40px;
+    margin-bottom: -8px;
+  }
+
+  .text-mid-white {
+    font-size: 27px;
+  }
+
+  .text-lit-white {
+    font-size: 10px;
+  }
+
+  .text-lit-white2 {
+    font-size: 5px;
+}
+
+  .text-big-black {
+    font-size: 30px;
+  }
+
+  .text-big-black2 {
+    font-size: 21px;
+ }
+
+ .text-big-black3 {
+    font-size: 28px;
+  }
+
+
+  .text-mid-black {
+    font-size: 20px;
+  }
+
+  .text-big-green {
+    font-size: 28px;
+  }
+
+  .text-mid-green {
+    font-size: 19px;
+  }
+
+  .text-mid-green2 {
+    font-size: 20px;
+  }
+
+  .text-lit-black {
+    font-size: 8px;
+  }
+
+  .text-lit-black2 {
+    font-size: 12px;
+  }
+
+  .text-lit-black4 {
+    font-size: 12px;
+  }
+
+  .text-lit-black5 {
+    font-size: 11px;
+  }
+
+  .btnwhats-img {
+    width: 21vh;
+    height: 6vh;
+  }
+
+  .btnwhats3-img {
+    width: 28vh;
+    height: 6vh;
+  }
+
+  .electra-img {
+    width: 12vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 7vh;
+    height: 4vh;
+  }
+
+  .coppel-img {
+    width: 21vh;
+    height: 7vh;
+    background-position-y: -37px;
+  }
+
+  .walmart-img {
+    width: 14vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 14vh;
+    height: 7vh;
+    background-position-y: 8px;
+  }
+
+  .soriana-img {
+    width: 14vh;
+    height: 4vh;
+  }
+
+  .farmacias-img {
+    width: 10vh;
+    height: 7vh;
+  }
+
+  .bbva-img {
+    width: 12vh;
+    height: 6vh;
+    background-position-y: -13px;
+  }
+
+  .note-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .coin2-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .check-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .lock-img {
+    width: 25px;
+    height: 5vh;
+  }
+
+  .coin-img {
+    width: 25px;
+    height: 5vh;
+  }
+
+  .fondoazul-img {
+    background-size: 110%;
+    height: 84vh;
+  }
+
+  .chat-img {
+    width: 120px;
+    height: 20vh;
+    background-position-y: 4vh;
+  }
+
+  .btnwhats2-img {
+    width: 24vh;
+    height: 7vh;
+  }
+
+  .zapp2-img{
+    width: 13vh;
+    height: 3vh;
+  }
+
+  .uni-img {
+    width: 8vh;
+    height: 5vh;
+    margin-left: 21vh;
+
+  }
+
+}
+
+@media screen and (max-width:800px) {
+
+  .card {
+    width: 195px;
+    height: 139px;
+  }
+
+  .card2 {
+    width: 129px;
+    height: 170px;
+}
+
+  .card-white {
+    top: 39vh;
+    left: 45vh;
+  }
+
+  .conttextone{
+    top: 11vh;
+    right: 8vh;
+  }
+
+  .text-big-white1{
+    font-size: 34px;
+    margin-bottom: -8px;
+  }
+
+  .plane-img::before {
+    width: 85vh;
+    height: 20vh;
+    top: 41vh;
+  }
+
+  .whats-img {
+    width: 30px;
+    height: 5vh;
+  }
+
+  .whats2-img {
+    width: 14px;
+    height: 5vh;
+  }
+
+  .fondoverde-img {
+    height: 67vh;
+  }
+
+  .card-title {
+    font-size: 12px;
+    margin-bottom: -50px;
+  }
+
+  .text-big-white {
+    font-size: 28px;
+  }
+
+  .text-mid-white {
+    font-size: 24px;
+  }
+
+  .text-lit-white {
+    font-size: 10px;
+  }
+
+  .text-lit-white2 {
+    font-size: 5px;
+}
+
+  .text-big-black {
+    font-size: 30px;
+  }
+
+  .text-big-black2 {
+    font-size: 21px;
+ }
+
+ .text-big-black3 {
+    font-size: 24px;
+  }
+
+
+  .text-mid-black {
+    font-size: 20px;
+  }
+
+  .text-big-green {
+    font-size: 24px;
+  }
+
+  .text-mid-green {
+    font-size: 20px;
+  }
+
+  .text-mid-green2 {
+    font-size: 20px;
+  }
+
+  .text-lit-black {
+    font-size: 8px;
+  }
+
+  .text-lit-black2 {
+    font-size: 12px;
+  }
+
+  .text-lit-black4 {
+    font-size: 12px;
+  }
+
+  .text-lit-black5 {
+    font-size: 8px;
+  }
+
+  .btnwhats-img {
+    width: 17vh;
+    height: 6vh;
+  }
+
+  .btnwhats3-img {
+    width: 28vh;
+    height: 6vh;
+  }
+
+  .electra-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 4vh;
+    height: 4vh;
+  }
+
+  .coppel-img {
+    width: 11vh;
+    height: 7vh;
+    background-position-y: -19px;
+  }
+
+  .walmart-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 7vh;
+    height: 7vh;
+    background-position-y: 5px;
+  }
+
+  .soriana-img {
+    width: 7vh;
+    height: 4vh;
+  }
+
+  .farmacias-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .bbva-img {
+    width: 5vh;
+    height: 4vh;
+    background-position-y: -2px;
+  }
+
+  .note-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .coin2-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .check-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .lock-img {
+    width: 25px;
+    height: 5vh;
+  }
+
+  .coin-img {
+    width: 25px;
+    height: 5vh;
+  }
+
+  .fondoazul-img {
+    background-size: 124%;
+    height: 84vh;
+  }
+
+  .chat-img {
+    width: 113px;
+    height: 20vh;
+    background-position-y: 5vh;
+  }
+
+  .plane2-img::before {
+    width: 90vh;
+    top: 230vh;
+  }
+
+  .btnwhats2-img {
+    width: 21vh;
+    height: 4vh;
+  }
+
+  .zapp2-img{
+    width: 13vh;
+    height: 3vh;
+  }
+
+  .uni-img {
+    width: 8vh;
+    height: 5vh;
+    margin-left: 21vh;
+
+  }
+
+}
+
+@media screen and (max-width:700px) {
+
+  .card {
+    width: 166px;
+    height: 110px;
+  }
+
+  .card2 {
+    width: 211px;
+    height: 170px;
+ }
+
+  .card-white {
+    top: 36vh;
+    left: 39vh;
+  }
+
+  .conttextone{
+    top: 10vh;
+    right: 13vh;
+  }
+
+  .text-big-white1{
+    font-size: 25px;
+    margin-bottom: -8px;
+  }
+
+  .whats-img {
+    width: 30px;
+    height: 5vh;
+  }
+
+  .whats2-img {
+    width: 14px;
+    height: 5vh;
+  }
+
+  .fondoverde-img {
+    height: 60vh;
+  }
+
+  .card-title {
+    font-size: 12px;
+    margin-bottom: -50px;
+  }
+
+  .text-big-white {
+    font-size: 20px;
+  }
+
+  .text-mid-white {
+    font-size: 18px;
+  }
+
+  .text-lit-white {
+    font-size: 8px;
+  }
+
+  .text-lit-white2 {
+    font-size: 5px;
+}
+
+  .text-big-black {
+    font-size: 30px;
+  }
+
+  .text-big-black2 {
+    font-size: 16px;
+ }
+
+ .text-big-black3 {
+    font-size: 16px;
+  }
+
+
+  .text-mid-black {
+    font-size: 12px;
+  }
+
+  .text-big-green {
+    font-size: 16px;
+  }
+
+  .text-mid-green {
+    font-size: 12px;
+  }
+
+  .text-mid-green2 {
+    font-size: 12px;
+  }
+
+  .text-lit-black {
+    font-size: 8px;
+  }
+
+  .text-lit-black2 {
+    font-size: 9px;
+  }
+
+  .text-lit-black4 {
+    font-size: 8px;
+  }
+
+  .text-lit-black5 {
+    font-size: 8px;
+  }
+
+  .btnwhats-img {
+    width: 17vh;
+    height: 6vh;
+  }
+
+  .btnwhats3-img {
+    width: 28vh;
+    height: 6vh;
+  }
+
+  .electra-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 4vh;
+    height: 4vh;
+  }
+
+  .coppel-img {
+    width: 11vh;
+    height: 7vh;
+    background-position-y: -19px;
+  }
+
+  .walmart-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 7vh;
+    height: 7vh;
+    background-position-y: 5px;
+  }
+
+  .soriana-img {
+    width: 7vh;
+    height: 4vh;
+  }
+
+  .farmacias-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .bbva-img {
+    width: 5vh;
+    height: 4vh;
+    background-position-y: -2px;
+  }
+
+  .note-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .coin2-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .check-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .lock-img {
+    width: 25px;
+    height: 5vh;
+  }
+
+  .coin-img {
+    width: 25px;
+    height: 5vh;
+  }
+
+  .fondoazul-img {
+    background-size: 118%;
+    height: 70vh;
+  }
+
+  .chat-img {
+    width: 82px;
+    height: 17vh;
+    background-position-y: 6vh;
+  }
+
+  .plane2-img::before {
+    width: 70vh;
+    top: 206vh;
+  }
+
+  .btnwhats2-img {
+    width: 21vh;
+    height: 4vh;
+  }
+
+  .zapp2-img{
+    width: 13vh;
+    height: 3vh;
+  }
+
+  .uni-img {
+    width: 8vh;
+    height: 5vh;
+    margin-left: 21vh;
+
+  }
+
+}
+
+@media screen and (max-width:600px) {
+
+  .card {
+    width: 166px;
+    height: 110px;
+  }
+
+  .card2 {
+    width: 211px;
+    height: 170px;
+ }
+
+  .card-white {
+    top: 31vh;
+    left: 32vh;
+  }
+
+  .conttextone{
+    top: 10vh;
+    right: 12vh;
+  }
+
+  .text-big-white1{
+    font-size: 21px;
+    margin-bottom: -8px;
+  }
+
+  .whats-img {
+    width: 30px;
+    height: 5vh;
+  }
+
+  .whats2-img {
+    width: 14px;
+    height: 5vh;
+  }
+
+  .fondoverde-img {
+    height: 50vh;
+  }
+
+  .card-title {
+    font-size: 12px;
+    margin-bottom: -50px;
+  }
+
+  .text-big-white {
+    font-size: 20px;
+  }
+
+  .text-mid-white {
+    font-size: 18px;
+  }
+
+  .text-lit-white {
+    font-size: 8px;
+  }
+
+  .text-lit-white2 {
+    font-size: 5px;
+}
+
+  .text-big-black {
+    font-size: 30px;
+  }
+
+  .text-big-black2 {
+    font-size: 16px;
+ }
+
+ .text-big-black3 {
+    font-size: 16px;
+  }
+
+
+  .text-mid-black {
+    font-size: 12px;
+  }
+
+  .text-big-green {
+    font-size: 16px;
+  }
+
+  .text-mid-green {
+    font-size: 12px;
+  }
+
+  .text-mid-green2 {
+    font-size: 12px;
+  }
+
+  .text-lit-black {
+    font-size: 8px;
+  }
+
+  .text-lit-black2 {
+    font-size: 9px;
+  }
+
+  .text-lit-black4 {
+    font-size: 8px;
+  }
+
+  .text-lit-black5 {
+    font-size: 8px;
+  }
+
+  .btnwhats-img {
+    width: 15vh;
+    height: 6vh;
+  }
+
+  .btnwhats3-img {
+    width: 28vh;
+    height: 6vh;
+  }
+
+  .electra-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 4vh;
+    height: 4vh;
+  }
+
+  .coppel-img {
+    width: 11vh;
+    height: 7vh;
+    background-position-y: -19px;
+  }
+
+  .walmart-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 7vh;
+    height: 7vh;
+    background-position-y: 5px;
+  }
+
+  .soriana-img {
+    width: 7vh;
+    height: 4vh;
+  }
+
+  .farmacias-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .bbva-img {
+    width: 5vh;
+    height: 4vh;
+    background-position-y: -2px;
+  }
+
+  .note-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .coin2-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .check-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .lock-img {
+    width: 25px;
+    height: 5vh;
+  }
+
+  .coin-img {
+    width: 25px;
+    height: 5vh;
+  }
+
+  .fondoazul-img {
+    background-size: 152%;
+    background-position-x: -14vh;
+    height: 78vh;
+  }
+
+  .chat-img {
+    width: 82px;
+    height: 17vh;
+    background-position-y: 6vh;
+  }
+
+  .plane2-img::before {
+    width: 62vh;
+    top: 203vh;
+  }
+
+  .btnwhats2-img {
+    width: 21vh;
+    height: 4vh;
+  }
+
+  .zapp2-img{
+    width: 13vh;
+    height: 3vh;
+  }
+
+  .uni-img {
+    width: 8vh;
+    height: 5vh;
+    margin-left: 21vh;
+
+  }
+
+}
+
+@media screen and (max-width:500px) {
+
+  .card {
+    width: 133px;
+    height: 100px;
+  }
+
+  .card2 {
+    width: 190px;
+    height: 149px;
+  }
+
+  .card-white {
+    top: 27vh;
+    left: 26vh;
+  }
+
+  .conttextone{
+    top: 9vh;
+    right: 14vh;
+  }
+
+  .text-big-white1{
+    font-size: 14px;
+    margin-bottom: -2px;
+  }
+
+  .whats-img {
+    width: 30px;
+    height: 5vh;
+  }
+
+  .whats2-img {
+    width: 14px;
+    height: 5vh;
+  }
+
+  .fondoverde-img {
+    height: 45vh;
+  }
+
+  .card-title {
+    font-size: 12px;
+    margin-bottom: -50px;
+  }
+
+  .text-big-white {
+    font-size: 20px;
+  }
+
+  .text-mid-white {
+    font-size: 18px;
+  }
+
+  .text-lit-white {
+    font-size: 8px;
+  }
+
+  .text-lit-white2 {
+    font-size: 5px;
+}
+
+  .text-big-black {
+    font-size: 30px;
+  }
+
+  .text-big-black2 {
+    font-size: 16px;
+ }
+
+ .text-big-black3 {
+    font-size: 16px;
+  }
+
+
+  .text-mid-black {
+    font-size: 12px;
+  }
+
+  .text-big-green {
+    font-size: 16px;
+  }
+
+  .text-mid-green {
+    font-size: 12px;
+  }
+
+  .text-mid-green2 {
+    font-size: 12px;
+  }
+
+  .text-lit-black {
+    font-size: 8px;
+  }
+
+  .text-lit-black2 {
+    font-size: 9px;
+  }
+
+  .text-lit-black4 {
+    font-size: 8px;
+  }
+
+  .text-lit-black5 {
+    font-size: 8px;
+  }
+
+  .btnwhats-img {
+    width: 12vh;
+    height: 6vh;
+  }
+
+  .btnwhats3-img {
+    width: 28vh;
+    height: 6vh;
+  }
+
+  .electra-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 4vh;
+    height: 4vh;
+  }
+
+  .coppel-img {
+    width: 11vh;
+    height: 7vh;
+    background-position-y: -19px;
+  }
+
+  .walmart-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 7vh;
+    height: 7vh;
+    background-position-y: 5px;
+  }
+
+  .soriana-img {
+    width: 7vh;
+    height: 4vh;
+  }
+
+  .farmacias-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .bbva-img {
+    width: 5vh;
+    height: 4vh;
+    background-position-y: -2px;
+  }
+
+  .note-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .coin2-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .check-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .lock-img {
+    width: 25px;
+    height: 5vh;
+  }
+
+  .coin-img {
+    width: 25px;
+    height: 5vh;
+  }
+
+  .fondoazul-img {
+    background-size: 195%;
+    background-position-x: -29vh;
+    height: 84vh;
+  }
+
+  .chat-img {
+    width: 82px;
+    height: 17vh;
+    background-position-y: 6vh;
+  }
+
+}
+
+@media screen and (max-width:400px) {
+
+  .card {
+    width: 112px;
+    height: 82px;
+  }
+
+  .card2 {
+    width: 134px;
+    height: 112px;
+  }
+
+  .card-white {
+    top: 22vh;
+    left: 19vh;
+  }
+
+  .conttextone{
+    top: 5vh;
+    right: 7vh;
+  }
+
+  .text-big-white1{
+    font-size: 15px;
+    margin-bottom: -8px;
+  }
+  
+  .whats-img {
+    width: 16px;
+    height: 2vh;
+  }
+
+  .whats2-img {
+    width: 14px;
+    height: 5vh;
+  }
+
+  .fondoverde-img {
+    height: 34vh;
+  }
+
+  .card-title {
+    font-size: 10px;
+    margin-bottom: -50px;
+  }
+
+  .text-big-white {
+    font-size: 12px;
+  }
+
+  .text-mid-white {
+    font-size: 10px;
+  }
+
+  .text-lit-white {
+    font-size: 6px;
+  }
+
+  .text-lit-white2 {
+    font-size: 5px;
+}
+
+  .text-big-black {
+    font-size: 18px;
+  }
+
+  .text-big-black2 {
+    font-size: 10px;
+ }
+
+ .text-big-black3 {
+    font-size: 8px;
+  }
+
+
+  .text-mid-black {
+    font-size: 8px;
+  }
+
+  .text-big-green {
+    font-size: 8px;
+  }
+
+  .text-mid-green {
+    font-size: 9px;
+  }
+
+  .text-mid-green2 {
+    font-size: 8px;
+  }
+
+  .text-lit-black {
+    font-size: 6px;
+  }
+
+  .text-lit-black2 {
+    font-size: 6px;
+  }
+
+  .text-lit-black4 {
+    font-size: 6px;
+  }
+
+  .text-lit-black5 {
+    font-size: 5px;
+  }
+
+  .btnwhats-img {
+    width: 10vh;
+    height: 4vh;
+  }
+
+  .btnwhats3-img {
+    width: 16vh;
+    height: 4vh;
+  }
+
+  .electra-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .oxxo-img {
+    width: 4vh;
+    height: 4vh;
+  }
+
+  .coppel-img {
+    width: 11vh;
+    height: 7vh;
+    background-position-y: -19px;
+  }
+
+  .walmart-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .banorte-img {
+    width: 7vh;
+    height: 7vh;
+    background-position-y: 5px;
+  }
+
+  .soriana-img {
+    width: 7vh;
+    height: 4vh;
+  }
+
+  .farmacias-img {
+    width: 7vh;
+    height: 7vh;
+  }
+
+  .bbva-img {
+    width: 5vh;
+    height: 4vh;
+    background-position-y: -2px;
+  }
+
+  .note-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .coin2-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .check-img {
+    width: 14px;
+    height: 2vh;
+  }
+
+  .lock-img {
+    width: 16px;
+    height: 4vh;
+  }
+
+  .coin-img {
+    width: 16px;
+    height: 4vh;
+  }
+
+  .fondoazul-img {
+    background-size: 190%;
+    background-position-x: -22vh;
+    height: 65vh;
+  }
+
+  .chat-img {
+    width: 82px;
+    height: 17vh;
+    background-position-y: 6vh;
+  }
+
+  .plane2-img::before {
+    width: 38vh;
+    top: 208vh;
+  }
+
+  .btnwhats2-img {
+    width: 15vh;
+    height: 4vh;
+  }
+
+  .zapp2-img{
+    width: 13vh;
+    height: 3vh;
+  }
+
+  .uni-img {
+    width: 8vh;
+    height: 5vh;
+    margin-left: 10vh;
+
+  }
+
+}
