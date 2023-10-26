@@ -24,42 +24,44 @@ function App() {
       </Navbar>
 
       <section className='seccionTwo'>
-      <div className='fondoverde-img'>
-        <div className='conttextone mt-5'>
-          <p className='text-big-white1'>Envía dinero a México</p>
-          <p className='text-big-white1' >tan fácil como chatear</p>
-          <p className='text-big-white1'>por WhatsApp</p>
-        </div>
-        <Card className='.col-sm-2 col-lg-3 card-white'>
-            <Card.Body>
-              <p className='text-lit-black4'>Escríbenos por WhatsApp </p>
-              <p className='text-lit-black4'>y haz tu primer envío por</p>
-              <Card.Text className='text-mid-green'>
-                !0$ de comisión!
-              </Card.Text>
-              <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black pt-3'><div className='btnwhats-img'></div></Nav.Link>
-            </Card.Body>
-          </Card>
-        <div className='whats3-img'></div>
-        <div className='pais-img'></div>
-        <div className='plane-img'></div>
-      </div>
-        <p className='d-flex justify-content-center text-mid-black'>Tus seres queridos podrán recibir su dinero en mas de <span className='text-mid-green2 mx-2'> 40,000 </span> <span className='text-mid-green2 mx-2'> puntos </span> de pago</p>
-        <p className='d-flex justify-content-center text-mid-black mb-5'>o directo a su cuenta bancaria.</p>
-        <div className=' d-flex justify-content-center col-12'>
-          <div className='col-sm-10 col-lg-8  row d-flex justify-content-between'>
-            <div className='electra-img col-3'></div>
-            <div className='oxxo-img col-3'></div>
-            <div className='coppel-img col-3'></div>
-            <div className='walmart-img col-3'></div>
-            <div className='banorte-img col-3'></div>
+        <div className='fondoverde-img col-12 row'>
+            <div className='col-5'></div>
+            <div className='col-6'>
+              <div className='col-12 mt-5 pt-5'>
+                <p className='text-big-white1'>Envía dinero a México</p>
+                <p className='text-big-white1' >tan fácil como chatear</p>
+                <p className='text-big-white1'>por WhatsApp</p>
+              </div>
+              <Card className='col-6 mt-5'>
+                  <Card.Body>
+                    <p className='text-lit-black4'>Escríbenos por WhatsApp </p>
+                    <p className='text-lit-black4'>y haz tu primer envío por</p>
+                    <Card.Text className='text-mid-green'>
+                      !0$ de comisión!
+                    </Card.Text>
+                    <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black'><div className='btnwhats2-img'></div></Nav.Link>
+                  </Card.Body>
+                </Card>
           </div>
         </div>
-        <div className=' d-flex justify-content-center col-12'>
-          <div className='.col-sm-10 col-lg-4 row d-flex justify-content-between'>
-            <div className='soriana-img'></div>
-            <div className='farmacias-img'></div>
-            <div className='bbva-img'></div>
+        <div className='col-12'>
+          <p className='d-flex justify-content-center text-mid-black'>Tus seres queridos podrán recibir su dinero en mas de <span className='text-mid-green2 mx-2'> 40,000 </span> <span className='text-mid-green2 mx-2'> puntos </span> de pago</p>
+          <p className='d-flex justify-content-center text-mid-black mb-5'>o directo a su cuenta bancaria.</p>
+          <div className=' d-flex justify-content-center col-12'>
+            <div className='col-sm-10 col-lg-8  row d-flex justify-content-between'>
+              <div className='electra-img col-3'></div>
+              <div className='oxxo-img col-3'></div>
+              <div className='coppel-img col-3'></div>
+              <div className='walmart-img col-3'></div>
+              <div className='banorte-img col-3'></div>
+            </div>
+          </div>
+          <div className=' d-flex justify-content-center col-12'>
+            <div className='.col-sm-10 col-lg-4 row d-flex justify-content-between'>
+              <div className='soriana-img'></div>
+              <div className='farmacias-img'></div>
+              <div className='bbva-img'></div>
+            </div>
           </div>
         </div>
       </section>
@@ -67,7 +69,7 @@ function App() {
         <p className='d-flex justify-content-center text-big-black'>¡Haz tu envío en un dos por tres!</p>
         <section className='pb-5 col-12'>
           <div className='row justify-content-center'>
-            <Card className='col-sm-3 col-lg-2 card2'>
+            <Card className='col m-5 color-blue'>
               <Card.Body>
                 <section className='d-flex justify-content-between col-12 mb-3'>
                   <div className='whats2-img col-1'></div>
@@ -81,7 +83,7 @@ function App() {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className='col-sm-3 col-lg-2 card2'>
+            <Card className='col m-5 color-blue'>
               <Card.Body>
                 <section className='d-flex justify-content-between col-12 mb-3'>
                   <div className='note-img col-1'></div>
@@ -96,7 +98,7 @@ function App() {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className='col-sm-3 col-lg-2 card2'>
+            <Card className='col m-5 color-blue'>
               <Card.Body>
                 <section className='d-flex justify-content-between col-12 mb-3'>
                   <div className='coin2-img col-1'></div>
@@ -110,7 +112,7 @@ function App() {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className='col-sm-3 col-lg-2 card2'>
+            <Card className='col m-5 color-blue'>
               <Card.Body>
                 <section className='d-flex justify-content-between col-12 mb-3'>
                   <div className='check-img col-1'></div>
@@ -203,7 +205,7 @@ function App() {
               <p className='text-mid-white'>Libérate de hacer fila en la tienda</p>
               <p className='text-mid-white'>o de bajar aplicaciones.</p>
             </div>
-            <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black mt-3'><div className='btnwhats2-img'></div></Nav.Link>
+            <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black mt-3'><div className='btnwhats4-img'></div></Nav.Link>
           </div>
         </section>
         <hr></hr>
