@@ -8,11 +8,12 @@
 
 @font-face {
   font-family: 'lato-bold';
-  src: local('lato-bold'),
-  url('../src/assets/fonts/Lato-Bold.ttf') format('truetype');
+  src: local('lato'),
+   url('../src/assets/fonts/Lato-Bold.ttf') format('truetype');
   font-style: bold;
-  font-weight:bold;
+  font-weight: bold;
 }
+
 
 @font-face {
   font-family: 'grotesk';
@@ -22,13 +23,11 @@
   font-weight: 400;
 }
 
-@font-face {
-  font-family: 'grotesk-light';
-  src: local('grotesk-light')
-   url('../src/assets/fonts/Typo\ Grotesk\ Rounded\ Light.woff') format('woff');
-  font-style: light;
-  font-weight: 200;
+body {
+  font-family: lato ,grotesk ;
 }
+
+
 
 hr {
   background-color: #fff;
@@ -73,6 +72,12 @@ hr {
   background-color:#9ae8eb ;
 }
 
+.card-title {
+  font-size: 33px;
+  font-family: 'lato-bold';
+  color: #000;
+}
+
 .text-big-white1 {
   font-family: 'grotesk';
   font-size: 84px;
@@ -96,14 +101,14 @@ hr {
 
 .text-lit-white {
   color: #fff;
-  font-family: 'lato-bold';
+  font-family: 'lato';
   font-size: 20px;
   margin-bottom: 0px;
 }
 
 .text-lit-white2 {
   color: #fff;
-  font-family: 'lato-bold';
+  font-family: 'lato';
   font-size: 12px;
   margin-left: 15px;
   margin-bottom: 0px;
@@ -118,14 +123,14 @@ hr {
 
 .text-mid-black {
   color: #000;
-  font-family: 'grotesk';
+  font-family: 'lato';
   font-size: 40px;
   margin-bottom: 0px;
 }
 
 .text-lit-black {
   color: #000;
-  font-family: 'lato-bold';
+  font-family: 'lato';
   font-size: 12px;
 }
 
@@ -137,28 +142,28 @@ hr {
 
 .text-lit-black2 {
   color: #000;
-  font-family: 'lato-bold';
+  font-family: 'lato';
   font-size: 22px;
   margin-bottom: 0px;
 }
 
 .text-big-black3 {
   color: #000;
-  font-family: 'lato-bold';
+  font-family: 'grotesk';
   font-size: 60px;
   margin-bottom: 0px;
 }
 
 .text-lit-black4 {
   color: #000;
-  font-family: 'lato-bold';
+  font-family: 'grotesk';
   font-size: 30px;
   margin-bottom: 0px;
 }
 
 .text-lit-black5 {
-  color: #000;
-  font-family: 'lato-bold';
+  color: #413e3c;
+  font-family: 'lato';
   font-size: 23px;
   margin-bottom: 0px;
 }
@@ -172,7 +177,7 @@ hr {
 
 .text-mid-green2 {
   color: #0BBE5E;
-  font-family: 'grotesk';
+  font-family: 'lato';
   font-size: 40px;
   margin-bottom: 0px;
 }
@@ -214,8 +219,8 @@ hr {
   background-image: url('./assets/img/Elements_Button.svg');
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 40vh;
-  height: 11vh;
+  width: 30vh;
+  height: 7vh;
 }
 
 .btnwhats2-img {
@@ -407,7 +412,6 @@ hr {
 }
 
 @media screen and (max-width:1920px) {
-
   hr {
     background-color: #fff;
     color: #fff;
@@ -447,6 +451,16 @@ hr {
     margin-bottom: 0px;
   }
   
+  .color-blue {
+    background-color:#9ae8eb ;
+  }
+  
+  .card-title {
+    font-size: 33px;
+    font-family: 'lato-bold';
+    color: #000;
+  }
+  
   .text-big-white1 {
     font-family: 'grotesk';
     font-size: 84px;
@@ -470,14 +484,14 @@ hr {
   
   .text-lit-white {
     color: #fff;
-    font-family: 'lato-bold';
+    font-family: 'lato';
     font-size: 20px;
     margin-bottom: 0px;
   }
   
   .text-lit-white2 {
     color: #fff;
-    font-family: 'lato-bold';
+    font-family: 'lato';
     font-size: 12px;
     margin-left: 15px;
     margin-bottom: 0px;
@@ -492,14 +506,14 @@ hr {
   
   .text-mid-black {
     color: #000;
-    font-family: 'grotesk';
+    font-family: 'lato';
     font-size: 40px;
     margin-bottom: 0px;
   }
   
   .text-lit-black {
     color: #000;
-    font-family: 'lato-bold';
+    font-family: 'lato';
     font-size: 12px;
   }
   
@@ -511,28 +525,28 @@ hr {
   
   .text-lit-black2 {
     color: #000;
-    font-family: 'lato-bold';
+    font-family: 'lato';
     font-size: 22px;
     margin-bottom: 0px;
   }
   
   .text-big-black3 {
     color: #000;
-    font-family: 'lato-bold';
+    font-family: 'grotesk';
     font-size: 60px;
     margin-bottom: 0px;
   }
   
   .text-lit-black4 {
     color: #000;
-    font-family: 'lato-bold';
+    font-family: 'grotesk';
     font-size: 30px;
     margin-bottom: 0px;
   }
   
   .text-lit-black5 {
-    color: #000;
-    font-family: 'lato-bold';
+    color: #413e3c;
+    font-family: 'lato';
     font-size: 23px;
     margin-bottom: 0px;
   }
@@ -546,7 +560,7 @@ hr {
   
   .text-mid-green2 {
     color: #0BBE5E;
-    font-family: 'grotesk';
+    font-family: 'lato';
     font-size: 40px;
     margin-bottom: 0px;
   }
@@ -588,8 +602,8 @@ hr {
     background-image: url('./assets/img/Elements_Button.svg');
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 40vh;
-    height: 11vh;
+    width: 30vh;
+    height: 7vh;
   }
   
   .btnwhats2-img {
@@ -779,61 +793,6 @@ hr {
     width: 13vh;
     height: 7vh;
   }
-  
-  
-}
-
-@media screen and (max-width:1800px)  {
-  .text-big-white1 {
-    font-size: 78px;
-  }
-
-  .btnwhats2-img {
-    width: 36vh;
-  }
-
-  .fondoazul-img {
-    height: 104vh;
-  }
-}
-
-@media screen and (max-width:1600px)  {
-
-  .fondoverde-img {
-    height: 60em;
-  }
-
-  .text-big-white1 {
-    font-size: 66px;
-  }
-
-  .text-lit-black4 {
-    font-size: 25px;
-  }
-
-  .text-mid-green {
-    font-size: 42px;
-  }
-
-  .btnwhats2-img {
-    width: 45vh;
-  }
-
-  .text-big-black3 {
-    font-size: 55px;
-  }
-
-  .text-big-green {
-    font-size: 55px;
-  }
-
-  .fondoazul-img {
-    height: 138vh;
-  }
-
-  .chat-img {
-    width: 300px;
-}
 }
 
 @media screen and (max-width:1500px)  {

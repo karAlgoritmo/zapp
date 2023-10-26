@@ -14,7 +14,7 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-center flex-grow-1">
-              <Nav.Link href="#primero" className='text-header-black'>¿como funciona?</Nav.Link>
+              <Nav.Link href="#primero" className='text-header-black'>¿Como Funciona?</Nav.Link>
               <Nav.Link href="#tercero" className='text-header-black'>Preguntas Frecuentes</Nav.Link>
               <Nav.Link href="#cuarto" className='text-header-black'>Contacto</Nav.Link>
             </Nav>
@@ -37,7 +37,7 @@ function App() {
                     <p className='text-lit-black4'>Escríbenos por WhatsApp </p>
                     <p className='text-lit-black4'>y haz tu primer envío por</p>
                     <Card.Text className='text-mid-green'>
-                      !0$ de comisión!
+                      !$0 de comisión!
                     </Card.Text>
                     <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black'><div className='btnwhats2-img'></div></Nav.Link>
                   </Card.Body>
@@ -91,8 +91,8 @@ function App() {
                 </section>
                 <Card.Text className='text-lit-black5'>
                   Sigue los pasos indicados
-                  en el chat.Ingresa el monto
-                  del envío.tu destinatario y 
+                  en el chat. Ingresa el monto
+                  del envío, tu destinatario y 
                   la forma en que va a recibir
                   el dinero.
                 </Card.Text>
@@ -141,7 +141,7 @@ function App() {
           <div className='col-6'>
             <p className='text-big-white mt-5 mb-5'>Bueno, bonito y barato</p>
             <div className='col-12 row mb-5'>
-              <div className='col-2'>
+              <div className='col-1'>
                 <div className='whats-img'></div>
               </div>
               <div className='col-9'>
@@ -151,7 +151,7 @@ function App() {
               </div>
             </div>
             <div className='col-12 row mb-5'>
-              <div className='col-2'>
+              <div className='col-1'>
                 <div className='lock-img'></div>
               </div>
               <div className='col-9'>
@@ -163,7 +163,7 @@ function App() {
               </div>
             </div>
             <div className='col-12 row mb-5'>
-              <div className='col-2'>
+              <div className='col-1'>
                 <div className='coin-img'></div>
               </div>
               <div className='col-9'>
@@ -221,7 +221,7 @@ function App() {
             <div className='col-3'>
               <p className='text-lit-white'>Compañia</p>
               <p className='text-lit-white2'>FAQ</p>
-              <p className='text-lit-white2 mb-2'>empleos</p>
+              <p className='text-lit-white2 mb-2'>Empleos</p>
               <p className='text-lit-white'>Legales</p>
               <p className='text-lit-white2'>Aviso de privacidad</p>
               <p className='text-lit-white2'>Términos de uso</p>
@@ -233,7 +233,7 @@ function App() {
               <p className='text-lit-white2 mb-2'>TX 77380</p>
               <p className='text-lit-white2 mb-2'>Hola@zapp.global</p>
               <p className='text-lit-white2'>2023 Zapp Inc.</p>
-              <p className='text-lit-white2'>Todos los derechos reservados</p>
+              <p className='text-lit-white2'>Todos los derechos reservados.</p>
             </div>
           </div>
         </section>
