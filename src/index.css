@@ -18,7 +18,7 @@
 @font-face {
   font-family: 'grotesk';
   src: local('grotesk'),
-   url('../src/assets/fonts/Typo\ Grotesk\ Rounded.woff') format('woff');
+   url('../src/assets/fonts/GroteskRounded.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
 }
@@ -80,7 +80,7 @@ hr {
 
 .text-big-white1 {
   font-family: 'grotesk';
-  font-size: 84px;
+  font-size: 66px;
   color: #fff;
   margin-bottom: -23px;
 }
@@ -110,8 +110,14 @@ hr {
   color: #fff;
   font-family: 'lato';
   font-size: 12px;
-  margin-left: 15px;
+  margin-left: 24px;
   margin-bottom: 0px;
+}
+
+.text-lit-white3 {
+  color: #fff;
+  font-family: 'lato';
+  font-size: 12px;
 }
 
 .text-big-black {
@@ -227,7 +233,6 @@ hr {
   background-image: url('./assets/img/Elements_Button.svg');
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 40vh;
   height: 11vh;
 }
 
@@ -411,6 +416,28 @@ hr {
   height: 7vh;
 }
 
+.correo-img {
+  background-image: url('./assets/img/Contact_Icons.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 2vh;
+  height: 3vh;
+}
+
+.location-img {
+  background-image: url('./assets/img/Location_Icon.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 2vh;
+  height: 3vh;
+}
+
+.video {
+  height: 30vh;
+}
+
 @media screen and (max-width:1920px) {
   hr {
     background-color: #fff;
@@ -463,7 +490,7 @@ hr {
   
   .text-big-white1 {
     font-family: 'grotesk';
-    font-size: 84px;
+    font-size: 66px;
     color: #fff;
     margin-bottom: -23px;
   }
@@ -493,8 +520,23 @@ hr {
     color: #fff;
     font-family: 'lato';
     font-size: 12px;
-    margin-left: 15px;
+    margin-left: 24px;
     margin-bottom: 0px;
+  }
+
+  .text-lit-white4 {
+    color: #fff;
+    font-family: 'lato';
+    font-size: 12px;
+    margin-left: 24px;
+    margin-top: -2vh;
+    margin-bottom: 0px;
+  }
+  
+  .text-lit-white3 {
+    color: #fff;
+    font-family: 'lato';
+    font-size: 12px;
   }
   
   .text-big-black {
@@ -610,7 +652,6 @@ hr {
     background-image: url('./assets/img/Elements_Button.svg');
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 40vh;
     height: 11vh;
   }
   
@@ -795,14 +836,232 @@ hr {
   }
 }
 
-@media screen and (max-width:1500px)  {
+@media screen and (max-width:1700px)  {
+
+  .fondoverde-img {
+    height: 62em;
+}
   .text-big-white1 {
     font-size: 63px;
   }
 
-  .chat-img {
-    width: 320px;
- }
+  .text-lit-black4 {
+    font-size: 28px;
+}
+
+  .text-mid-green {
+    font-size: 46px;
+}
+
+.card-title {
+  font-size: 26px;;
+}
+
+.text-lit-black5 {
+  font-size: 16px;
+}
+
+.whats2-img {
+  width: 30px;
+}
+
+.note-img {
+  width: 30px;
+}
+
+.check-img {
+  width: 30px;
+}
+
+.coin2-img {
+  width: 30px;
+}
+
+.coppel-img {
+  background-position-y: -46px;
+}
+
+.chat-img {
+  width: 316px;
+  height: 40vh;
+}
+
+.text-big-white {
+  font-size: 54px;
+}
+
+.text-mid-white {
+  font-size: 35px;
+}
+
+.text-lit-white {
+  font-size: 17px;
+}
+
+.fondoazul-img {
+  height: 150vh;
+}
+
+.text-big-black3 {
+  font-size: 45px;
+}
+
+.text-big-green {
+  font-size: 45px;
+}
+
+}
+
+@media screen and (max-width:1600px)  {
+
+  .fondoverde-img {
+    height: 62em;
+}
+  .text-big-white1 {
+    font-size: 63px;
+  }
+
+  .text-lit-black4 {
+    font-size: 28px;
+}
+
+  .text-mid-green {
+    font-size: 46px;
+}
+
+.card-title {
+  font-size: 26px;;
+}
+
+.text-lit-black5 {
+  font-size: 16px;
+}
+
+.whats2-img {
+  width: 30px;
+}
+
+.note-img {
+  width: 30px;
+}
+
+.check-img {
+  width: 30px;
+}
+
+.coin2-img {
+  width: 30px;
+}
+
+.coppel-img {
+  background-position-y: -44px;
+}
+
+.chat-img {
+  width: 316px;
+  height: 40vh;
+}
+
+.text-big-white {
+  font-size: 54px;
+}
+
+.text-mid-white {
+  font-size: 35px;
+}
+
+.text-lit-white {
+  font-size: 17px;
+}
+
+.fondoazul-img {
+  height: 150vh;
+}
+
+.text-big-black3 {
+  font-size: 45px;
+}
+
+.text-big-green {
+  font-size: 45px;
+}
+
+}
+
+@media screen and (max-width:1500px)  {
+
+  .fondoverde-img {
+    height: 62em;
+}
+  .text-big-white1 {
+    font-size: 63px;
+  }
+
+  .text-lit-black4 {
+    font-size: 28px;
+}
+
+  .text-mid-green {
+    font-size: 46px;
+}
+
+.card-title {
+  font-size: 26px;;
+}
+
+.text-lit-black5 {
+  font-size: 16px;
+}
+
+.whats2-img {
+  width: 30px;
+}
+
+.note-img {
+  width: 30px;
+}
+
+.check-img {
+  width: 30px;
+}
+
+.coin2-img {
+  width: 30px;
+}
+
+.coppel-img {
+  background-position-y: -27px;
+}
+
+.chat-img {
+  width: 316px;
+  height: 40vh;
+}
+
+.text-big-white {
+  font-size: 54px;
+}
+
+.text-mid-white {
+  font-size: 35px;
+}
+
+.text-lit-white {
+  font-size: 17px;
+}
+
+.fondoazul-img {
+  height: 150vh;
+}
+
+.text-big-black3 {
+  font-size: 45px;
+}
+
+.text-big-green {
+  font-size: 45px;
+}
+
 }
 
 @media screen and (max-width:1400px)  {
@@ -816,10 +1075,6 @@ hr {
 
   .text-mid-green {
     font-size: 35px;
-  }
-
-  .btnwhats2-img {
-    width: 40vh;
   }
 
   .text-mid-black {
@@ -876,9 +1131,6 @@ hr {
     font-size: 55px;
   }
 
-  .btnwhats2-img {
-    width: 35vh;
-  }
 
   .text-big-white {
     font-size: 45px;
@@ -887,6 +1139,14 @@ hr {
   .text-mid-white {
       font-size: 35px;
   }
+
+  .card-title {
+    font-size: 24px;
+}
+
+.fondoazul-img {
+  height: 113vh;
+}
 
 
   .text-lit-white {
@@ -918,7 +1178,6 @@ hr {
     
 }
 
-
 @media screen and (max-width:1200px)  {
   .text-big-white1 {
     font-size: 44px;
@@ -928,9 +1187,6 @@ hr {
     font-size: 30px;
   }
 
-  .btnwhats2-img {
-    width: 31vh;
-  }
 }
 
 @media screen and (max-width:1024px)  {
@@ -938,16 +1194,13 @@ hr {
   .fondoverde-img {
     height: 40em;
   }
-    .text-lit-black4 {
-      font-size: 15px;
+
+  .text-lit-black4 {
+    font-size: 15px;
   }
 
   .text-mid-green {
     font-size: 25px;
-  }
-
-  .btnwhats2-img {
-    width: 31vh;
   }
 
   .text-mid-black {
@@ -958,16 +1211,12 @@ hr {
     font-size: 20px;
   }
 
-  .coppel-img {
-    background-position-y: -26px;
-  }
-
   .text-big-black {
     font-size: 45px;
   }
 
   .card-title {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .text-lit-black5 {
@@ -987,10 +1236,12 @@ hr {
   }
 
   .lock-img {
+    width: 38px;
     height: 10vh;
-  }
+}
 
   .coin-img {
+    width: 38px;
     height: 10vh;
   }
 
@@ -1009,9 +1260,67 @@ hr {
   .text-big-green {
     font-size: 32px;
   }
+
+  .whats2-img {
+    width: 26px;
+}
+
+.note-img {
+  width: 26px;
+}
+
+.coin2-img {
+  width: 26px;
+}
+
+.check-img {
+  width: 26px;
+}
+
+.whats-img {
+  width: 42px;
+}
+
+.electra-img {
+  width: 10vh;
+}
+
+.oxxo-img {
+  width: 6vh;
+}
+
+.coppel-img {
+  width: 16vh;
+  height: 11vh;
+  background-position-y: -19px;
+}
+
+.walmart-img {
+  width: 12vh;
+}
+
+.banorte-img {
+  width: 16vh;
+}
+
+.soriana-img {
+  width: 12vh;
+}
+
+.farmacias-img {
+  width: 12vh;
+}
+
+.bbva-img {
+  width: 8vh;
+}
 }
 
 @media screen and (max-width:912px)  {
+
+  .dis-none {
+    display: none;
+  }
 
   .zapp-img {
     width: 13vh;
@@ -1033,7 +1342,6 @@ hr {
   }
 
   .btnwhats2-img {
-    width: 13vh;
     height: 5vh;
   }
 
@@ -1189,7 +1497,6 @@ hr {
 }
 
 .btnwhats2-img {
-  width: 13vh;
   height: 3vh;
 }
 
@@ -1377,7 +1684,6 @@ hr {
   }
 
   .btnwhats2-img {
-    width: 9vh;
     height: 2vh;
   }
 
@@ -1454,7 +1760,6 @@ hr {
 }
 
 .btnwhats2-img {
-  width: 7vh;
   height: 2vh;
 }
 

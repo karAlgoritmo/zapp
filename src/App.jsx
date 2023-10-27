@@ -19,14 +19,14 @@ function App() {
               <Nav.Link href="#cuarto" className='text-header-black'>Contacto</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black pt-3'><div className='btnwhats-img'></div></Nav.Link>
+          <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black pt-3 dis-none'><div className='btnwhats-img'></div></Nav.Link>
         </Container>
       </Navbar>
 
       <section className='seccionTwo'>
         <div className='fondoverde-img col-12 row'>
             <div className='col-5'></div>
-            <div className='col-6'>
+            <div className='col-7'>
               <div className='col-12 mt-5 pt-5'>
                 <p className='text-big-white1'>Envía dinero a México</p>
                 <p className='text-big-white1' >tan fácil como chatear</p>
@@ -39,7 +39,7 @@ function App() {
                     <Card.Text className='text-mid-green'>
                       !$0 de comisión!
                     </Card.Text>
-                    <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black'><div className='btnwhats2-img'></div></Nav.Link>
+                    <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black'><div className='btnwhats2-img col-11'></div></Nav.Link>
                   </Card.Body>
                 </Card>
           </div>
@@ -195,6 +195,7 @@ function App() {
             <div className='col-10 p-5'>
               <p className='text-big-black3'>Descubre la <span className='text-big-green mx-2'> nueva </span> forma fácil, rápida y segura</p>
               <p className='text-big-black3'>de enviar dinero a México</p>
+              <div className='col-10 video'></div>
             </div>
         </section>
       </section>
@@ -228,10 +229,24 @@ function App() {
             </div>
             <div className='col-3'>
               <p className='text-lit-white'>Contacto</p>
-              <p className='text-lit-white2 ml-5'>2001 Timberloch place,</p>
-              <p className='text-lit-white2 pl-5'>suite 500,The Woodlands</p>
+              <div className='row'>
+                <div className='col-1'>
+                  <div className='location-img'></div>
+                </div>
+                <div className='col-8'>
+                  <p className='text-lit-white3'>2001 Timberloch place,</p>
+                </div>
+              </div>
+              <p className='text-lit-white4'>suite 500,The Woodlands</p>
               <p className='text-lit-white2 mb-2'>TX 77380</p>
-              <p className='text-lit-white2 mb-2'>Hola@zapp.global</p>
+              <div className='row'>
+                <div className='col-1'>
+                  <div className='correo-img'></div>
+                </div>
+                <div className='col-8'>
+                  <p className='text-lit-white3'>Hola@zapp.global</p>
+                </div>
+              </div>
               <p className='text-lit-white2'>2023 Zapp Inc.</p>
               <p className='text-lit-white2'>Todos los derechos reservados.</p>
             </div>
