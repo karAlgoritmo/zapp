@@ -70,11 +70,12 @@ hr {
 
 .color-blue {
   background-color:#9ae8eb ;
+  border-radius: 20px;
 }
 
 .card-title {
   font-size: 33px;
-  font-family: 'lato-bold';
+  font-family: 'lato';
   color: #000;
 }
 
@@ -263,7 +264,7 @@ hr {
 }
 
 .fondoazul-img {
-  background-image: url('./assets/img/Zapp4.svg');
+  background-image: url('./assets/img/Zapp3.svg');
   background-color: #f7f9fa;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -365,7 +366,6 @@ hr {
   background-size: 100%;
   background-repeat: no-repeat;
   display: block;
-  background-position-y: -45px;
   width: 22vh;
   height: 12vh;
 }
@@ -438,7 +438,24 @@ hr {
   height: 30vh;
 }
 
+.desktop {
+  display: block;
+}
+
+.mobile {
+  display:none;
+}
+
 @media screen and (max-width:1920px) {
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display:none;
+  }
+
   hr {
     background-color: #fff;
     color: #fff;
@@ -480,11 +497,12 @@ hr {
   
   .color-blue {
     background-color:#9ae8eb ;
+    border-radius: 20px;
   }
   
   .card-title {
     font-size: 33px;
-    font-family: 'lato-bold';
+    font-family: 'grotesk';
     color: #000;
   }
   
@@ -682,7 +700,7 @@ hr {
   }
   
   .fondoazul-img {
-    background-image: url('./assets/img/Zapp4.svg');
+    background-image: url('./assets/img/Zapp3.svg');
     background-color: #f7f9fa;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -784,7 +802,6 @@ hr {
     background-size: 100%;
     background-repeat: no-repeat;
     display: block;
-    background-position-y: -45px;
     width: 22vh;
     height: 12vh;
   }
@@ -834,9 +851,26 @@ hr {
     width: 13vh;
     height: 7vh;
   }
+
+  
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display:block;
+}
 }
 
 @media screen and (max-width:1700px)  {
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display:none;
+  }
 
   .fondoverde-img {
     height: 62em;
@@ -875,10 +909,6 @@ hr {
 
 .coin2-img {
   width: 30px;
-}
-
-.coppel-img {
-  background-position-y: -46px;
 }
 
 .chat-img {
@@ -914,6 +944,14 @@ hr {
 
 @media screen and (max-width:1600px)  {
 
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display:none;
+  }
+
   .fondoverde-img {
     height: 62em;
 }
@@ -953,9 +991,6 @@ hr {
   width: 30px;
 }
 
-.coppel-img {
-  background-position-y: -44px;
-}
 
 .chat-img {
   width: 316px;
@@ -990,6 +1025,14 @@ hr {
 
 @media screen and (max-width:1500px)  {
 
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display:none;
+  }
+
   .fondoverde-img {
     height: 62em;
 }
@@ -1030,7 +1073,7 @@ hr {
 }
 
 .coppel-img {
-  background-position-y: -27px;
+    width: 21vh;
 }
 
 .chat-img {
@@ -1065,6 +1108,15 @@ hr {
 }
 
 @media screen and (max-width:1400px)  {
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display:none;
+  }
+
   .text-big-white1 {
     font-size: 55px;
   }
@@ -1123,6 +1175,15 @@ hr {
 }
 
 @media screen and (max-width:1280px){
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display:none;
+  }
+
   .fondoverde-img {
     height: 50em;
   }
@@ -1167,7 +1228,7 @@ hr {
 
   .text-big-black3 {
     color: #000;
-    font-family: 'lato-bold';
+    font-family: 'grotesk';
     font-size: 40px;
     margin-bottom: 0px;
   }
@@ -1179,6 +1240,15 @@ hr {
 }
 
 @media screen and (max-width:1200px)  {
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display:none;
+  }
+
   .text-big-white1 {
     font-size: 44px;
   }
@@ -1190,6 +1260,14 @@ hr {
 }
 
 @media screen and (max-width:1024px)  {
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display:none;
+  }
 
   .fondoverde-img {
     height: 40em;
@@ -1292,7 +1370,6 @@ hr {
 .coppel-img {
   width: 16vh;
   height: 11vh;
-  background-position-y: -19px;
 }
 
 .walmart-img {
@@ -1317,495 +1394,678 @@ hr {
 }
 
 @media screen and (max-width:912px)  {
-
-  .dis-none {
+  .desktop {
     display: none;
+  }
+  
+  .mobile {
+    display:block;
   }
 
   .zapp-img {
-    width: 13vh;
+    width: 12vh;
     height: 3vh;
   }
 
+  .fondoverde-img {
+    height: 59em;
+    background-size: 600%;
+  }
+
   .text-big-white1 {
-    font-size: 25px;
-    margin-bottom: -10px;
+    font-size: 54px;
+    margin-bottom: 33px;
+    margin-top: -43px;
+  }
+
+  .text-lit-black4 {
+    font-size: 33px;
   }
 
   .text-mid-green {
-    font-size: 22px;
-  }
-
-  .btnwhats-img {
-    width: 12vh;
-    height: 4vh;
-  }
-
-  .btnwhats2-img {
-    height: 5vh;
-  }
-
-  .electra-img {
-    width: 8vh;
-    height: 4vh;
-  }
-
-  .oxxo-img {
-    width: 4vh;
-    height: 7vh;
+    font-size: 40px;
   }
 
   .coppel-img {
-    background-position-y: -33px;
-    width: 12vh;
-    height: 6vh;
-  }
-
-  .walmart-img {
-    width: 10vh;
-    height: 6vh;
-  }
-
-  .banorte-img {
-    width: 11vh;
-    height: 5vh;
-  }
-
-  .soriana-img {
-    width: 10vh;
+    width: 16vh;
     height: 7vh;
   }
 
   .farmacias-img {
-    width: 8vh;
-    height: 8vh;
-  }
-
-  .bbva-img {
-    width: 8vh;
-    height: 5vh;
-    background-position-y: -1vh;
-  }
-
-  .text-big-black {
-    font-size: 30px;
-  }
-
-  .card-title {
-    font-size: 9px;
-}
-
-  .text-lit-black5 {
-    font-size: 6px;
-}
-
-.check-img {
-  width: 20px;
-  height: 3vh;
-}
-
-.coin2-img {
-  width: 24px;
-  height: 3vh;
-}
-
-.note-img {
-  width: 24px;
-  height: 3vh;
-}
-
-.whats2-img {
-  width: 30px;
-  height: 3vh;
-}
-
-.btnwhats3-img {
-  width: 19vh;
-  height: 4vh;
-}
-
-.text-big-white {
-  font-size: 25px;
-}
-
-.text-mid-white {
-  font-size: 18px;
-}
-
-.text-lit-white {
-  font-size: 8px;
-}
-
-.whats-img {
-  width: 40px;
-  height: 3vh;
-}
-
-.lock-img {
-  width: 36px;
-  height: 4vh;
-}
-
-.coin-img {
-  width: 36px;
-  height: 5vh;
-}
-
-.fondoazul-img {
-  height: 50vh;
-}
-
-.chat-img {
-  width: 13vh;
-  background-position-y: 3vh;
-  height: 19vh;
-}
-
-.text-big-black3 {
-  font-size: 30px;
-}
-
-.text-big-green {
-  font-size: 30px;
-}
-
-.btnwhats4-img {
-  width: 17vh;
-  height: 4vh;
-}
-
-.zapp2-img {
-  width: 14vh;
-  height: 3vh;
-}
-
-.uni-img {
-  width: 10vh;
-  height: 4vh;
-  margin-left: 7vh;
-}
-  
-}
-
-@media screen and (max-width:820px) {
-  .text-lit-black4 {
-    font-size: 12px;
-}
-
-.text-mid-green {
-  font-size: 19px;
-}
-
-.btnwhats2-img {
-  height: 3vh;
-}
-
-.fondoverde-img {
-  height: 30em;
-}
-
-.text-big-black {
-  font-size: 26px;
-}
-
-
-.card-title {
-  font-size: 8px;
-}
-
-.text-lit-black5 {
-  font-size: 5px;
-}
-
-.text-big-black2 {
-  font-size: 24px;
-}
-
-.text-big-black3 {
-  font-size: 26px;
-}
-
-.text-big-green {
-  font-size: 26px;
-}
-}
-
-@media screen and (max-width:540px){
-
-  .text-big-white1 {
-    font-size: 15px;
-    margin-bottom: -6px;
-}
-
-.text-lit-black4 {
-  font-size: 7px;
-}
-
-.text-mid-green {
-  font-size: 11px;
-}
-
-.fondoverde-img {
-  height: 23em;
-}
-
-.text-mid-black {
-  font-size: 10px;
-}
-
-.text-mid-green2 {
-  font-size: 10px;
-}
-
-.electra-img {
-  width: 7vh;
-  height: 4vh;
-}
-
-.coppel-img {
-  background-position-y: -17px;
-  width: 12vh;
-  height: 6vh;
-}
-
-.whats2-img {
-  width: 19px;
-  height: 5vh;
-}
-
-.text-lit-black5 {
-  font-size: 6px;
-}
-
-.note-img {
-  width: 17px;
-  height: 3vh;
-}
-
-.coin2-img {
-  width: 15px;
-  height: 3vh;
-}
-
-.check-img {
-  width: 14px;
-  height: 3vh;
-}
-
-.m-5 {
-  margin: 0rem !important;
-}
-
-.text-big-white {
-  font-size: 18px;
-}
-
-.whats-img {
-  width: 25px;
-  height: 5vh;
-}
-
-.text-lit-white {
-  font-size: 6px;
-}
-
-.lock-img {
-  width: 20px;
-  height: 3vh;
-}
-
-.coin-img {
-  width: 21px;
-  height: 3vh;
-}
-
-.text-big-white {
-  font-size: 18px;
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
-}
-
-.mb-5 {
-  margin-bottom: 1rem!important;
-}
-
-.text-big-black2 {
-  font-size: 15px;
-}
-
-.text-lit-black2 {
-  font-size: 9px;
-}
-
-.text-big-black3 {
-  font-size: 14px;
-}
-
-.text-big-green {
-  font-size: 14px;
-}
-
-.text-mid-white {
-  font-size: 12px;
-}
-
-.text-lit-white2 {
-  font-size: 6px;
-}
-  
-}
-
-@media screen and (max-width:415px) {
-
-  .zapp-img {
-    width: 7vh;
-    height: 1vh;
-}
-
-  .text-big-white1 {
-    font-size: 15px;
-    margin-bottom: -1px;
-  }
-
-  .fondoverde-img {
-    height: 17em;
-}
-
-  .mt-5 {
-    margin-top: 0rem!important;
-  }
-
-  .text-lit-black4 {
-    font-size: 4px;
-  }
-
-  .text-mid-green {
-    font-size: 7px;
+    width: 12vh;
+    height: 10vh;
   }
 
   .btnwhats2-img {
-    height: 2vh;
+    height: 6vh;
+  }
+
+  .text-mid-black {
+    font-size: 42px;
+  }
+
+  .text-mid-green2 {
+    font-size: 42px;
   }
 
   .text-big-black {
-    font-size: 18px;
+    font-size: 73px;
+    margin-bottom: -26px;
+    padding: 0px;
+  }
+
+  .whats2-img {
+    width: 98px;
+    height: 9vh;
+  }
+
+  .note-img {
+    width: 97px;
+    height: 9vh;
+  }
+
+  .coin2-img {
+    width: 91px;
+    height: 9vh;
+  }
+
+  .check-img {
+    width: 86px;
+    height: 10vh;
+  }
+
+  .card-title {
+    font-size: 50px;
+  }
+
+  .text-lit-black2 {
+    font-size: 32px;
+  }
+
+  .btnwhats3-img {
+    width: 41vh;
+    height: 9vh;
+  }
+
+
+  .chat-img {
+    width: 14vh;
+    height: 50vh;
+    background-position-y: 25vh;
+  }
+
+  .fondoazul-img {
+    height: 170vh;
+    background-size: 900%;
+  }
+
+  .text-big-white {
+    font-size: 81px;
+  }
+
+  .text-big-black3 {
+    font-size: 48px;
+  }
+
+  .text-big-green {
+    font-size: 48px;
+  }
+
+  .text-lit-black5 {
+    font-size: 32px;
+  }
+
+  .whats-img {
+    width: 139px;
+    height: 14vh;
+  }
+
+  .lock-img {
+    width: 130px;
+    height: 10vh;
+  }
+
+  .coin-img {
+    width: 130px;
+    height: 9vh;
+  }
+
+  .text-mid-white {
+    font-size: 67px;
+  }
+
+  .text-lit-white {
+    font-size: 37px;
+  }
+
+  .text-big-black2 {
+    font-size: 75px;
+    margin-bottom: -15px;
+  }
+
+  hr {
+    margin-left: 8vh;
+    margin-right: 8vh;
+  }
+
+  .btnwhats4-img {
+    width: 44vh;
+    height: 9vh;
+  }
+
+  .zapp2-img {
+    width: 46vh;
+    height: 13vh;
+  }
+
+  .uni-img {
+    width: 24vh;
+    height: 18vh;
+    margin-left: -2vh;
+  }
+
+  .text-lit-white2 {
+    font-size: 30px;
+  }
+
+  .text-lit-white3 {
+    font-size: 30px;
+    margin-left: -22px;
+  }
+
+  .text-lit-white4 {
+    font-size: 30px;
+    margin-top:-2vh;
+    margin-left: 27px;
+  }
+
 }
 
-.mb-5 {
-  margin-bottom: 0rem!important;
+@media screen and (max-width:820px) {
+
+  .desktop {
+    display: none;
+  }
+  
+  .mobile {
+    display:block;
+  }
+
+  .text-big-white1 {
+    font-size: 46px;
 }
 
-.mt-5 {
-  margin-top: 1rem!important;
+.text-lit-black4 {
+  font-size: 29px;
 }
 
-.text-mid-white {
-  font-size: 10px;
+.text-mid-green {
+  font-size: 39px;
 }
 
-.text-lit-white {
-  font-size: 5px;
+.btnwhats2-img {
+  height: 7vh;
+}
+
+.text-mid-black {
+  font-size: 37px;
+}
+
+.text-big-black {
+  font-size: 70px;
 }
 
 .text-big-white {
-  font-size: 14px;
+  font-size: 76px;
 }
 
-.fondoazul-img {
-  height: 36vh;
+.text-mid-white {
+  font-size: 64px;
+  margin-bottom: 29px;
 }
 
-.chat-img {
-  width: 10vh;
-  background-position-y: 3vh;
+.text-lit-white {
+  font-size: 29px;
+}
+
+.lock-img {
+  height: 12vh;
+}
+
+.coin-img {
   height: 12vh;
 }
 
 .text-big-black2 {
-  font-size: 12px;
+  font-size: 65px;
 }
 
 .text-lit-black2 {
-  font-size: 7px;
+  font-size: 29px;
 }
 
 .text-big-black3 {
-  font-size: 10px;
+  font-size: 39px;
 }
 
 .text-big-green {
-  font-size: 10px;
+  font-size: 39px;
 }
 
-.btnwhats4-img {
-  width: 11vh;
-  height: 3vh;
+.text-mid-white {
+  font-size: 61px;
+  margin-bottom: -19px;
 }
 
-.zapp2-img {
-  width: 9vh;
-  height: 2vh;
+.text-lit-white {
+  font-size: 21px;
 }
 
 .text-lit-white2 {
-  font-size: 4px;
+  font-size: 25px;
+}
+
+.text-lit-white3 {
+  font-size: 25px;
+  margin-left: -22px;
+}
+
+.text-lit-white4 {
+  font-size: 25px;
+  margin-top: -2vh;
+  margin-left: 24px;
+}
+
+}
+
+@media screen and (max-width:540px){
+  .desktop {
+    display: none;
+  }
+  
+  .mobile {
+    display:block;
+  }
+
+  .text-big-white1 {
+    font-size: 32px;
+}
+
+.text-lit-black4 {
+  font-size: 18px;
+}
+
+.text-mid-green {
+  font-size: 26px;
+}
+
+.text-mid-black {
+  font-size: 26px;
+}
+
+.text-mid-green2 {
+  font-size: 26px;
+}
+
+.text-big-black {
+  font-size: 47px;
+}
+
+.whats2-img {
+  width: 64px;
+  height: 9vh;
+}
+
+.card-title {
+  font-size: 35px;
+}
+
+.text-lit-black5 {
+  font-size: 18px;
+}
+
+.note-img {
+  width: 63px;
+  height: 9vh;
+}
+
+.coin2-img {
+  width: 58px;
+  height: 9vh;
+}
+
+.check-img {
+  width: 58px;
+  height: 10vh;
+}
+
+.text-big-white {
+  font-size: 45px;
+}
+
+.text-mid-white {
+  font-size: 42px;
+  margin-bottom: -20px;
+}
+
+.text-lit-white {
+  font-size: 14px;
+}
+
+.whats-img {
+  width: 76px;
+  height: 14vh;
+}
+
+.lock-img {
+  width: 64px;
+  height: 13vh;
+}
+
+.coin-img {
+  height: 12vh;
+  width: 65px;
+}
+
+.text-big-black2 {
+  font-size: 42px;
+}
+
+.text-lit-black2 {
+  font-size: 19px;
+}
+
+.chat-img {
+  width: 14vh;
+  height: 50vh;
+  background-position-y: 29vh;
+}
+
+.text-big-black3 {
+  font-size: 22px;
+}
+
+.text-big-green {
+  font-size: 22px;
+}
+
+.text-lit-white2 {
+  font-size: 15px;
+}
+
+.text-lit-white3 {
+  font-size: 15px;
+  margin-left: -6px;
+}
+
+.text-lit-white4 {
+  font-size: 15px;
+  margin-top: -3vh;
+  margin-left: 25px;
 }
 }
 
-@media screen and (max-width:376px) {
+@media screen and (max-width:415px) {
+
+  .desktop {
+    display: none;
+  }
+  
+  .mobile {
+    display:block;
+  }
+
   .text-big-white1 {
-    font-size: 14px;
+    font-size: 24px;
+}
+
+.text-lit-black4 {
+  font-size: 13px;
+}
+
+.text-mid-green {
+  font-size: 18px;
+}
+
+.text-mid-black {
+  font-size: 20px;
+}
+
+.text-big-black {
+  font-size: 36px;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.text-lit-black5 {
+  font-size: 14px;
+}
+
+.whats2-img {
+  width: 42px;
+  height: 5vh;
+}
+
+.note-img {
+  width: 42px;
+  height: 9vh;
+}
+
+.coin2-img {
+  width: 42px;
+  height: 6vh;
+}
+
+.check-img {
+  width: 42px;
+  height: 10vh;
+}
+
+.text-big-white {
+  font-size: 35px;
+}
+
+.text-mid-white {
+  font-size: 32px;
+  margin-bottom: -13px;
+}
+
+.text-lit-white {
+  font-size: 11px;
+}
+
+.text-big-black2 {
+  font-size: 34px;
+}
+
+.text-lit-black2 {
+  font-size: 15px;
+}
+
+.chat-img {
+  width: 14vh;
+  height: 50vh;
+  background-position-y: 22vh;
+}
+
+.text-big-black3 {
+  font-size: 21px;
+}
+
+.text-big-green {
+  font-size: 21px;
+}
+
+
+}
+
+@media screen and (max-width:376px) {
+
+  .desktop {
+    display: none;
+  }
+  
+  .mobile {
+    display:block;
+  }
+  
+  .text-big-white1 {
+    font-size: 18px;
     margin-bottom: 33px;
     margin-top: -43px;
 }
 
-.btnwhats2-img {
-  height: 2vh;
-}
-
-.text-mid-black {
-  font-size: 7px;
-}
-
-.text-mid-green2 {
-  font-size: 7px;
-}
-
-.text-big-black {
-  font-size: 12px;
-}
-
-.card-title {
-  font-size: 6px;
-}
-
-.text-big-black2 {
+.text-lit-black4 {
   font-size: 10px;
 }
 
+.text-mid-green {
+  font-size: 16px;
+}
+
+.btnwhats2-img {
+  height: 5vh;
+}
+
+.text-mid-black {
+  font-size: 14px;
+}
+
+.text-mid-green2 {
+  font-size: 15px;
+}
+
+.text-big-black {
+  font-size: 26px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.whats2-img {
+  width: 42px;
+  height: 9vh;
+}
+
+.note-img {
+  width: 44px;
+  height: 9vh;
+}
+
+.coin2-img {
+  width: 41px;
+  height: 9vh;
+}
+
+.check-img {
+  width: 40px;
+  height: 10vh;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
 .text-lit-black2 {
-  font-size: 6px;
+  font-size: 11px;
+}
+
+.btnwhats3-img {
+  width: 41vh;
+  height: 9vh;
 }
 
 .chat-img {
-  width: 8vh;
-  background-position-y: 2vh;
-  height: 11vh;
+  width: 14vh;
+  height: 40vh;
+  height: -57vh;
+  background-position-y: 19vh;
 }
 
 .fondoazul-img {
-  height: 30vh;
+  height: 170vh;
+  background-size: 900%;
+}
+
+.text-big-white {
+  font-size: 33px;
 }
 
 .text-big-black3 {
-  font-size: 9px;
+  font-size: 16px;
 }
 
 .text-big-green {
-  font-size: 9px;
+  font-size: 16px;
 }
 
 .text-lit-black5 {
-  font-size: 4px;
+  font-size: 13px;
 }
+
+.whats-img {
+  width: 45px;
+  height: 14vh;
 }
+
+.lock-img {
+  width: 38px;
+  height: 10vh;
+}
+
+.coin-img {
+  width: 39px;
+  height: 9vh;
+}
+
+.text-mid-white {
+  font-size: 24px;
+}
+
+.text-lit-white {
+  font-size: 11px;
+}
+
+.text-big-black2 {
+  font-size: 25px;
+  margin-bottom: -15px;
+}
+
+hr {
+  margin-left: 8vh;
+  margin-right: 8vh;
+}
+
+.btnwhats4-img {
+  width: 44vh;
+  height: 9vh;
+}
+
+.zapp2-img {
+  width: 46vh;
+  height: 13vh;
+}
+
+.uni-img {
+  width: 24vh;
+  height: 18vh;
+  margin-left: -2vh;
+}
+
+.text-lit-white2 {
+  font-size: 6px;
+}
+
+.text-lit-white3 {
+  font-size: 6px;
+}
+
+.text-lit-white4 {
+  font-size: 6px;
+  margin-top:-4vh;
+}
+
+
+}
+
