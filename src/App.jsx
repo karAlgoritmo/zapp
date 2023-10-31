@@ -14,7 +14,7 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-center flex-grow-1">
-              <Nav.Link href="#primero" className='text-header-black'>¿Como Funciona?</Nav.Link>
+              <Nav.Link href="#primero" className='text-header-black'>¿Cómo Funciona?</Nav.Link>
               <Nav.Link href="#tercero" className='text-header-black'>Preguntas Frecuentes</Nav.Link>
               <Nav.Link href="#cuarto" className='text-header-black'>Contacto</Nav.Link>
             </Nav>
@@ -28,12 +28,13 @@ function App() {
           <div className='fondoverde-img col-12 row'>
               <div className='col-5'></div>
               <div className='col-7'>
-                <div className='col-12 mt-5 pt-5'>
+                <div className='top-text'></div>
+                <div className='col-12'>
                   <p className='text-big-white1'>Envía dinero a México</p>
                   <p className='text-big-white1' >tan fácil como chatear</p>
                   <p className='text-big-white1'>por WhatsApp</p>
                 </div>
-                <Card className='col-6 mt-5'>
+                <Card className='col-6 mt-5 p-2'>
                     <Card.Body>
                       <p className='text-lit-black4'>Escríbenos por WhatsApp </p>
                       <p className='text-lit-black4'>y haz tu primer envío por</p>
@@ -46,10 +47,10 @@ function App() {
             </div>
           </div>
           <div className='col-12'>
-            <p className='d-flex justify-content-center text-mid-black'>Tus seres queridos podrán recibir su dinero en mas de <span className='text-mid-green2 mx-2'> 40,000 </span> <span className='text-mid-green2 mx-2'> puntos </span> de pago</p>
+            <p className='d-flex justify-content-center text-mid-black'>Tus seres queridos podrán recibir su dinero en más de <span className='text-mid-green2 mx-2'> 40,000 </span> <span className='text-mid-green2 mx-2'> puntos </span> de pago</p>
             <p className='d-flex justify-content-center text-mid-black mb-5'>o directo a su cuenta bancaria.</p>
             <div className=' d-flex justify-content-center col-12'>
-              <div className='col-sm-10 col-lg-8  row d-flex justify-content-between'>
+              <div className='col-8  row d-flex justify-content-between'>
                 <div className='electra-img col-3'></div>
                 <div className='oxxo-img col-3'></div>
                 <div className='coppel-img col-3'></div>
@@ -58,10 +59,10 @@ function App() {
               </div>
             </div>
             <div className=' d-flex justify-content-center col-12'>
-              <div className='.col-sm-10 col-lg-4 row d-flex justify-content-between'>
-                <div className='soriana-img'></div>
-                <div className='farmacias-img'></div>
-                <div className='bbva-img'></div>
+              <div className='col-4 row d-flex justify-content-between'>
+                <div className='soriana-img col-4'></div>
+                <div className='farmacias-img col-4'></div>
+                <div className='bbva-img col-4'></div>
               </div>
             </div>
           </div>
@@ -74,56 +75,48 @@ function App() {
                 <Card.Body>
                   <section className='d-flex justify-content-between col-12 mb-3'>
                     <div className='whats2-img col-1'></div>
-                    <Card.Title className='col-11'>Escríbenos</Card.Title>
+                    <Card.Title className='col-9'>Escríbenos</Card.Title>
                   </section>
-                  <Card.Text className='text-lit-black5'>
-                    Haz clic en el botón
-                    de Envía Dinero Hoy 
-                    e inicia un chat dentro
-                    de WhatsApp.
-                  </Card.Text>
+                  <Card.Text className='text-lit-black5'>Haz clic en el botón</Card.Text>
+                  <Card.Text className='text-lit-black5'>de <span className='text-lit-black6'> Envía Dinero Hoy </span></Card.Text>
+                  <Card.Text className='text-lit-black5'>e inicia un chat dentro </Card.Text>
+                  <Card.Text className='text-lit-black5'>de WhatsApp. </Card.Text>
                 </Card.Body>
               </Card>
               <Card className='col m-5 color-blue'>
                 <Card.Body>
                   <section className='d-flex justify-content-between col-12 mb-3'>
                     <div className='note-img col-1'></div>
-                    <Card.Title className='col-11'>Ingresa los detalles</Card.Title>
+                    <Card.Title className='col-9'>Ingresa los detalles</Card.Title>
                   </section>
-                  <Card.Text className='text-lit-black5'>
-                    Sigue los pasos indicados
-                    en el chat. Ingresa el monto
-                    del envío, tu destinatario y 
-                    la forma en que va a recibir
-                    el dinero.
-                  </Card.Text>
+                  <Card.Text className='text-lit-black5'>Sigue los pasos indicados</Card.Text>
+                  <Card.Text className='text-lit-black5'> en el chat. Ingresa el monto</Card.Text>
+                  <Card.Text className='text-lit-black5'>del envío, tu destinatario y </Card.Text>
+                  <Card.Text className='text-lit-black5'>la forma en que va a recibir </Card.Text>
+                  <Card.Text className='text-lit-black5'>  el dinero.</Card.Text>
                 </Card.Body>
               </Card>
               <Card className='col m-5 color-blue'>
                 <Card.Body>
                   <section className='d-flex justify-content-between col-12 mb-3'>
                     <div className='coin2-img col-1'></div>
-                    <Card.Title className='col-11'>Paga</Card.Title>
+                    <Card.Title className='col-9'>Paga</Card.Title>
                   </section>
-                  <Card.Text className='text-lit-black5'>
-                    Selecciona un método
-                    de pago a través de un
-                    enlace seguro y 
-                    confirma el envío.
-                  </Card.Text>
+                  <Card.Text className='text-lit-black5'>Selecciona un método</Card.Text>
+                  <Card.Text className='text-lit-black5'>de pago a través de un</Card.Text>
+                  <Card.Text className='text-lit-black5'>enlace seguro y </Card.Text>
+                  <Card.Text className='text-lit-black5'>confirma el envío.</Card.Text>
                 </Card.Body>
               </Card>
               <Card className='col m-5 color-blue'>
                 <Card.Body>
                   <section className='d-flex justify-content-between col-12 mb-3'>
                     <div className='check-img col-1'></div>
-                    <Card.Title className='col-11'>Recibe tu confirmación</Card.Title>
+                    <Card.Title className='col-9'>Recibe tu confirmación</Card.Title>
                   </section>
-                  <Card.Text className='text-lit-black5'>
-                    Recibirás la confirmación
-                    del envío después 
-                    de procesar tu pago.
-                  </Card.Text>
+                  <Card.Text className='text-lit-black5'>Recibirás la confirmación</Card.Text>
+                  <Card.Text className='text-lit-black5'>del envío después </Card.Text>
+                  <Card.Text className='text-lit-black5'>de procesar tu pago.</Card.Text>
                 </Card.Body>
               </Card>
               <div className='col-12 d-flex justify-content-center mt-5'>
@@ -186,7 +179,7 @@ function App() {
               <div className='col-10 mt-5'>
                 <p className='text-big-black2'>Sólo estás a un mensaje de distancia</p>
                 <p className='text-lit-black2'>¿Tienes alguna duda o comentario? Estamos aquí para ayudarte,</p>
-                <p className='text-lit-black2'>chatea con nosotros en WhatsApp o escríbenos a hola@zapp.global.</p>
+                <p className='text-lit-black2'>chatea con nosotros en WhatsApp o escríbenos a hola@zapp.global</p>
               </div>
             </div>
           </section>
@@ -196,7 +189,7 @@ function App() {
               <div className='col-10 p-5'>
                 <p className='text-big-black3'>Descubre la <span className='text-big-green mx-2'> nueva </span> forma fácil, rápida y segura</p>
                 <p className='text-big-black3'>de enviar dinero a México</p>
-                <div className='col-10 video'></div>
+                {/* <div className='col-10 video'></div> */}
               </div>
           </section>
         </section>
@@ -222,7 +215,7 @@ function App() {
               </div>
               <div className='col-3'>
                 <p className='text-lit-white'>Compañia</p>
-                <p className='text-lit-white2'>FAQ</p>
+                <p className='text-lit-white2'>FAQs</p>
                 <p className='text-lit-white2 mb-2'>Empleos</p>
                 <p className='text-lit-white'>Legales</p>
                 <p className='text-lit-white2'>Aviso de privacidad</p>
@@ -238,7 +231,7 @@ function App() {
                     <p className='text-lit-white3'>2001 Timberloch place,</p>
                   </div>
                 </div>
-                <p className='text-lit-white4'>suite 500,The Woodlands</p>
+                <p className='text-lit-white4'>suite 500, The Woodlands </p>
                 <p className='text-lit-white2 mb-2'>TX 77380</p>
                 <div className='row'>
                   <div className='col-1'>
@@ -259,7 +252,7 @@ function App() {
         <section className='seccionTwo'>
           <div className='fondoverde-img'>
               <div className='col-12 d-flex justify-content-center'>
-                <div className='col-6 mt-5 pt-5'>
+                <div className='col-8 mt-5 pt-5'>
                   <p className='text-big-white1'>Envía dinero</p>
                   <p className='text-big-white1'>a Mexico tan fácil</p>
                   <p className='text-big-white1' >como chatear</p>
@@ -267,7 +260,7 @@ function App() {
                 </div>
             </div>
             <div className='d-flex justify-content-center'>
-              <Card className='col-6'>
+              <Card className='col-8 p-3'>
                 <Card.Body>
                   <p className='text-lit-black4'>Escríbenos por WhatsApp </p>
                   <p className='text-lit-black4'>y haz tu primer envío por</p>
@@ -280,11 +273,11 @@ function App() {
             </div>
           </div>
           <div className='col-12 d-flex justify-content-center mt-5 mb-4'>
-            <div className='col-8'>
-              <p className='d-flex justify-content-center text-mid-black'>Tus seres queridos podrán</p>
-              <p className='d-flex justify-content-center text-mid-black'>recibir su dinero en mas de</p>
-              <p className='d-flex justify-content-center text-mid-black'><span className='text-mid-green2 ml-2'> 40,000 </span> <span className='text-mid-green2 mx-2'> puntos </span> de pago</p>
-              <p className='d-flex justify-content-center text-mid-black'>o directo a su cuenta bancaria.</p>
+            <div className='col-7'>
+              <p className='text-mid-black'>Tus seres queridos podrán</p>
+              <p className='text-mid-black'>recibir su dinero en más de</p>
+              <p className='text-mid-black'><span className='text-mid-green2 ml-2'> 40,000 </span> <span className='text-mid-green2 mx-2'> puntos </span> de pago</p>
+              <p className='text-mid-black'>o directo a su cuenta bancaria.</p>
             </div>
           </div>
           <div className='col-12 d-flex justify-content-center'>
@@ -317,60 +310,52 @@ function App() {
           </div>
           <section className='pb-5 col-12'>
             <div className='row justify-content-center'>
-              <Card className='col-7 my-5 color-blue'>
+              <Card className='col-7 p-4 my-5 color-blue'>
                 <Card.Body>
                   <section className='d-flex justify-content-between col-12 mb-3'>
                     <div className='whats2-img col-1'></div>
-                    <Card.Title className='col-11'>Escríbenos</Card.Title>
+                    <Card.Title className='col-9'>Escríbenos</Card.Title>
                   </section>
-                  <Card.Text className='text-lit-black5'>
-                    Haz clic en el botón
-                    de Envía Dinero Hoy 
-                    e inicia un chat dentro
-                    de WhatsApp.
-                  </Card.Text>
+                  <Card.Text className='text-lit-black5'>Haz clic en el botón</Card.Text>
+                  <Card.Text className='text-lit-black5'>de <span className='text-lit-black6'> Envía Dinero Hoy </span></Card.Text>
+                  <Card.Text className='text-lit-black5'>e inicia un chat dentro </Card.Text>
+                  <Card.Text className='text-lit-black5'>de WhatsApp. </Card.Text>
                 </Card.Body>
               </Card>
-              <Card className='col-7 my-5 color-blue'>
+              <Card className='col-7 p-4 my-5 color-blue'>
                 <Card.Body>
                   <section className='d-flex justify-content-between col-12 mb-3'>
                     <div className='note-img col-1'></div>
-                    <Card.Title className='col-11'>Ingresa los detalles</Card.Title>
+                    <Card.Title className='col-9'>Ingresa los detalles</Card.Title>
                   </section>
-                  <Card.Text className='text-lit-black5'>
-                    Sigue los pasos indicados
-                    en el chat. Ingresa el monto
-                    del envío, tu destinatario y 
-                    la forma en que va a recibir
-                    el dinero.
-                  </Card.Text>
+                  <Card.Text className='text-lit-black5'>Sigue los pasos indicados</Card.Text>
+                  <Card.Text className='text-lit-black5'> en el chat. Ingresa el monto</Card.Text>
+                  <Card.Text className='text-lit-black5'>del envío, tu destinatario y </Card.Text>
+                  <Card.Text className='text-lit-black5'>la forma en que va a recibir </Card.Text>
+                  <Card.Text className='text-lit-black5'>  el dinero.</Card.Text>
                 </Card.Body>
               </Card>
-              <Card className='col-7 my-5 color-blue'>
+              <Card className='col-7 p-4 my-5 color-blue'>
                 <Card.Body>
                   <section className='d-flex justify-content-between col-12 mb-3'>
                     <div className='coin2-img col-1'></div>
-                    <Card.Title className='col-11'>Paga</Card.Title>
+                    <Card.Title className='col-9'>Paga</Card.Title>
                   </section>
-                  <Card.Text className='text-lit-black5'>
-                    Selecciona un método
-                    de pago a través de un
-                    enlace seguro y 
-                    confirma el envío.
-                  </Card.Text>
+                  <Card.Text className='text-lit-black5'>Selecciona un método</Card.Text>
+                  <Card.Text className='text-lit-black5'>de pago a través de un</Card.Text>
+                  <Card.Text className='text-lit-black5'>enlace seguro y </Card.Text>
+                  <Card.Text className='text-lit-black5'>confirma el envío.</Card.Text>
                 </Card.Body>
               </Card>
-              <Card className='col-7 my-5 color-blue'>
+              <Card className='col-7 p-4 my-5 color-blue'>
                 <Card.Body>
                   <section className='d-flex justify-content-between col-12 mb-3'>
                     <div className='check-img col-1'></div>
-                    <Card.Title className='col-11'>Recibe tu confirmación</Card.Title>
+                    <Card.Title className='col-9'>Recibe tu confirmación</Card.Title>
                   </section>
-                  <Card.Text className='text-lit-black5'>
-                    Recibirás la confirmación
-                    del envío después 
-                    de procesar tu pago.
-                  </Card.Text>
+                  <Card.Text className='text-lit-black5'>Recibirás la confirmación</Card.Text>
+                  <Card.Text className='text-lit-black5'>del envío después </Card.Text>
+                  <Card.Text className='text-lit-black5'>de procesar tu pago.</Card.Text>
                 </Card.Body>
               </Card>
               <div className='col-12 d-flex justify-content-center mt-5'>
@@ -380,7 +365,7 @@ function App() {
           </section>
         </section>
         <section className='seccionFour'>
-          <div className='fondoazul-img row'>
+          <div className='fondoazul-img py-5'>
             <div className='col-12 d-flex justify-content-center my-5'>
               <div className='col-8'>
                 <p className='text-big-white'>Bueno, bonito</p>
@@ -388,27 +373,27 @@ function App() {
               </div>
             </div>
             <div className='col-12 d-flex justify-content-center'>
-              <div className='col-8 row '>
+              <div className='col-9 row'>
                 <div className='col-3'>
                   <div className='whats-img'></div>
                 </div>
                 <div className='col-9'>
-                  <p className='text-mid-white'>Súper fácil</p>
+                  <p className='text-mid-white my-4'>Súper fácil</p>
                   <p className='text-lit-white'>Libérate de hacer fila</p>
                   <p className='text-lit-white'>en la tienda o de bajar</p>
                   <p className='text-lit-white'>una aplicación más.</p>
                   <p className='text-lit-white'>Envía dinero de volada</p>
-                  <p className='text-lit-white'>desde WhatsApp.</p>
+                  <p className='text-lit-white mb-4'>desde WhatsApp.</p>
                 </div>
               </div>
             </div>
             <div className='col-12 d-flex justify-content-center'>
-                <div className='col-8 row'>
+                <div className='col-9 row'>
                   <div className='col-3'>
                     <div className='lock-img'></div>
                   </div>
                   <div className='col-9'>
-                    <p className='text-mid-white'>Seguro</p>
+                    <p className='text-mid-white my-4'>Seguro</p>
                     <p className='text-lit-white'>Tu información está</p>
                     <p className='text-lit-white'>encriptada por lo que</p>
                     <p className='text-lit-white'>Estamos registrados ante</p>
@@ -416,17 +401,17 @@ function App() {
                     <p className='text-lit-white'>de los  Estados Unidos y tu</p>
                     <p className='text-lit-white'>envío está protegido con</p>
                     <p className='text-lit-white'>nuestra garantía</p>
-                    <p className='text-lit-white'>de devolución.</p>
+                    <p className='text-lit-white mb-4'>de devolución.</p>
                   </div>
                 </div>
             </div>
           <div className='col-12 d-flex justify-content-center'>
-              <div className='col-8 row'>
+              <div className='col-9 row'>
                 <div className='col-3'>
                   <div className='coin-img'></div>
                 </div>
                 <div className='col-9'>
-                  <p className='text-mid-white'>Económico</p>
+                  <p className='text-mid-white my-4'>Económico</p>
                   <p className='text-lit-white'>La comisión de tu primer</p>
                   <p className='text-lit-white'>envío es gratuita con nosotros.</p>
                   <p className='text-lit-white'>Después, puedes continuar</p>
@@ -458,12 +443,12 @@ function App() {
           </section>
         </section>
         <section className='seccionThree'>
-          <section className='col-12 d-flex justify-content-center'>
-              <div className='col-8 mt-5'>
+          <section className='col-12 d-flex justify-content-center py-5'>
+              <div className='col-8'>
                 <p className='text-big-black3'>Descubre la <span className='text-big-green mx-2'> nueva </span> forma</p>
                 <p className='text-big-black3'>fácil, rápida y segura de</p>
                 <p className='text-big-black3'>enviar dinero a México</p>
-                <div className='col-10 video'></div>
+                {/* <div className='col-10 video'></div> */}
               </div>
           </section>
         </section>
@@ -485,9 +470,9 @@ function App() {
           </section>
           <section className='d-flex justify-content-center col-12'>
             <div className='col-8'>
-              <p className='text-lit-white'>Envía dinero a México de forma segura desde WhatsApp.</p>
-              <p className='text-lit-white'>Zapp es la forma más fácil y segura de enviar dinero</p>
-              <p className='text-lit-white'>sin hacer fila en la tienda ni descargar una app.</p>
+              <p className='text-lit-white6'>Envía dinero a México de forma segura desde WhatsApp.</p>
+              <p className='text-lit-white6'>Zapp es la forma más fácil y segura de enviar dinero</p>
+              <p className='text-lit-white6'>sin hacer fila en la tienda ni descargar una app.</p>
             </div>
           </section>
           <section className='d-flex justify-content-center col-12'>
@@ -499,7 +484,7 @@ function App() {
           <section className='d-flex justify-content-center col-12'>
             <div className='col-8'>
               <p className='text-lit-white'>Compañia</p>
-              <p className='text-lit-white2'>FAQ</p>
+              <p className='text-lit-white2'>FAQs</p>
               <p className='text-lit-white2 mb-2'>Empleos</p>
               <p className='text-lit-white'>Legales</p>
               <p className='text-lit-white2'>Aviso de privacidad</p>
@@ -517,7 +502,7 @@ function App() {
                   <p className='text-lit-white3'>2001 Timberloch place,</p>
                 </div>
               </div>
-              <p className='text-lit-white4'>suite 500,The Woodlands</p>
+              <p className='text-lit-white4'>suite 500, The Woodlands </p>
               <p className='text-lit-white2 mb-2'>TX 77380</p>
               <div className='row'>
                 <div className='col-1'>
