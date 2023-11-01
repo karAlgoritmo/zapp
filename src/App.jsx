@@ -378,7 +378,7 @@ function App() {
                   <div className='whats-img'></div>
                 </div>
                 <div className='col-9'>
-                  <p className='text-mid-white my-4'>Súper fácil</p>
+                  <p className='text-mid-white1 my-4'>Súper fácil</p>
                   <p className='text-lit-white'>Libérate de hacer fila</p>
                   <p className='text-lit-white'>en la tienda o de bajar</p>
                   <p className='text-lit-white'>una aplicación más.</p>
@@ -393,7 +393,7 @@ function App() {
                     <div className='lock-img'></div>
                   </div>
                   <div className='col-9'>
-                    <p className='text-mid-white my-4'>Seguro</p>
+                    <p className='text-mid-white1 my-4'>Seguro</p>
                     <p className='text-lit-white'>Tu información está</p>
                     <p className='text-lit-white'>encriptada por lo que</p>
                     <p className='text-lit-white'>Estamos registrados ante</p>
@@ -411,7 +411,7 @@ function App() {
                   <div className='coin-img'></div>
                 </div>
                 <div className='col-9'>
-                  <p className='text-mid-white my-4'>Económico</p>
+                  <p className='text-mid-white1 my-4'>Económico</p>
                   <p className='text-lit-white'>La comisión de tu primer</p>
                   <p className='text-lit-white'>envío es gratuita con nosotros.</p>
                   <p className='text-lit-white'>Después, puedes continuar</p>

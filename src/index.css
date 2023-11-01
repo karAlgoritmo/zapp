@@ -1692,9 +1692,9 @@ hr {
     background-position-y: 25vh;
   }
 
-  .fondoazul-img {
-    height: 125em;
-    background-size: 900%;
+.fondoazul-img {
+  background-image: url('./assets/img/zapp4.svg');
+  height: 184em;
 }
 
   .text-big-white {
@@ -1731,6 +1731,12 @@ hr {
   .coin-img {
     width: 130px;
     height: 9vh;
+  }
+
+  .text-mid-white1 {
+    color: #fff;
+    font-family: 'grotesk';
+    font-size: 65px;
   }
 
   .text-mid-white {
@@ -1875,9 +1881,14 @@ hr {
   font-size: 39px;
 }
 
-.text-mid-white {
-  font-size: 61px;
+.text-mid-white1 {
+  font-size: 63px;
   margin-bottom: -19px;
+}
+
+hr {
+  margin-left: 10vh;
+  margin-right: 10vh;
 }
 
 .text-lit-white {
@@ -1928,13 +1939,109 @@ hr {
 }
 
 .fondoazul-img {
-  height: 105em;
+  height: 165em;
+}
+
+.btnwhats4-img {
+  width: 49vh;
+  height: 10vh;
+}
+
+.zapp2-img {
+  width: 49vh;
+  height: 13vh;
 }
 
 .text-lit-white6 {
   font-size: 21px;
 }
 
+}
+
+@media screen and (max-width:768px) {
+
+  .text-big-white1 {
+    font-size: 59px;
+}
+
+.fondoverde-img {
+  height: 72em;
+}
+
+.text-mid-black {
+  font-size: 29px;
+}
+
+.text-mid-green2 {
+  font-size: 29px;
+}
+
+.text-big-black {
+  font-size: 60px;
+}
+
+.fondoazul-img {
+  height: 154em;
+}
+
+.text-big-black2 {
+  font-size: 60px;
+}
+
+.text-lit-black2 {
+  font-size: 27px;
+}
+
+.text-mid-white1 {
+  font-size: 58px;
+  margin-bottom: -19px;
+}
+
+.text-mid-white {
+  font-size: 58px;
+}
+
+.btnwhats4-img {
+  width: 53vh;
+  height: 10vh;
+}
+
+hr {
+  margin-left: 11vh;
+  margin-right: 11vh;
+}
+
+.text-lit-white6 {
+  font-size: 19px;
+}
+
+.zapp2-img {
+  width: 54vh;
+  height: 13vh;
+}
+
+.lock-img {
+  width: 102px;
+  height: 15vh;
+}
+
+.coin-img {
+  height: 14vh;
+  width: 102px;
+}
+
+.text-lit-white {
+  font-size: 30px;
+}
+
+.text-lit-black5 {
+  font-size: 25px;
+}
+
+.text-lit-black6 {
+  font-size: 25px;
+}
+  
 }
 
 @media screen and (max-width:540px){
@@ -2015,6 +2122,10 @@ hr {
   font-size: 45px;
 }
 
+.text-mid-white1 {
+  font-size: 32px;
+}
+
 .text-mid-white {
   font-size: 32px;
 }
@@ -2040,7 +2151,7 @@ hr {
 }
 
 .fondoazul-img {
-  height: 65em;
+  height: 109em;
 }
 
 .text-big-black2 {
@@ -2105,6 +2216,12 @@ hr {
 
   .text-big-white1 {
     font-size: 31px;
+    margin-top: -51px;
+}
+
+.color-blue {
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
 }
 
 .text-lit-black4 {
@@ -2143,7 +2260,7 @@ hr {
 }
 
 .btnwhats3-img {
-  width: 29vh;
+  width: 37vh;
   height: 8vh;
 }
 
@@ -2164,7 +2281,12 @@ hr {
 
 .text-mid-white {
   font-size: 32px;
-  margin-bottom: 0px !important;
+  margin-bottom: -2vh;
+}
+
+.text-mid-white1 {
+  font-size: 32px;
+  margin-bottom: 12px !important;
   margin-top: 5px !important;
 }
 
@@ -2184,17 +2306,12 @@ hr {
 }
 
 .check-img {
-  width: 42px;
+  width: 41px;
   height: 10vh;
 }
 
 .text-big-white {
   font-size: 35px;
-}
-
-.text-mid-white {
-  font-size: 32px;
-  margin-bottom: -13px;
 }
 
 .text-lit-white {
@@ -2203,7 +2320,7 @@ hr {
 }
 
 .fondoazul-img {
-  height: 53em;
+  height: 83em;
 }
 
 .text-big-black2 {
@@ -2215,14 +2332,19 @@ hr {
 }
 
 .chat-img {
-  width: 10vh;
+  width: 12vh;
   height: 39vh;
-  background-position-y: 18vh;
+  background-position-y: 22vh;
 }
 
 .btnwhats4-img {
-  width: 31vh;
+  width: 37vh;
   height: 7vh;
+}
+
+hr {
+  margin-left: 9vh;
+  margin-right: 9vh;
 }
 
 
@@ -2267,8 +2389,8 @@ hr {
 }
 
 .zapp2-img {
-  width: 32vh;
-  height: 8vh;
+  width: 38vh;
+  height: 10vh;
 }
 
 .text-lit-white6 {
@@ -2298,6 +2420,84 @@ hr {
 
 }
 
+@media screen and (max-width:391px) {
+
+  .text-big-white1 {
+    font-size: 30px;
+    margin-top: -54px;
+}
+
+.text-big-white {
+  font-size: 35px;
+  margin-top: -24px;
+}
+
+.fondoverde-img {
+  height: 37em;
+}
+
+.btnwhats3-img {
+  width: 29vh;
+  height: 6vh;
+}
+
+.text-lit-white {
+  font-size: 14px;
+  margin-bottom: -2px;
+}
+
+.text-big-black2 {
+  font-size: 31px;
+}
+
+.text-lit-black2 {
+  font-size: 13px;
+}
+
+.chat-img {
+  width: 10vh;
+  height: 39vh;
+  background-position-y: 18vh;
+}
+
+.text-big-black3 {
+  font-size: 18px;
+}
+
+.text-big-green {
+  font-size: 18px;
+}
+
+.fondoazul-img {
+  height: 79em;
+}
+
+.text-mid-white {
+  font-size: 29px;
+  margin-bottom: -2vh;
+}
+
+hr {
+  margin-left: 8vh;
+  margin-right: 8vh;
+}
+
+.btnwhats4-img {
+  width: 31vh;
+  height: 7vh;
+}
+
+.zapp2-img {
+  width: 32vh;
+  height: 8vh;
+}
+
+.text-lit-white6 {
+  font-size: 10px;
+}
+  
+}
+
 @media screen and (max-width:376px) {
 
   .desktop {
@@ -2311,8 +2511,8 @@ hr {
   .text-big-white1 {
     font-size: 28px;
     margin-bottom: 33px;
-    margin-top: -43px;
-  }
+    margin-top: -50px;
+}
 
   .fondoverde-img {
     height: 35em;
@@ -2401,6 +2601,12 @@ hr {
   height: 6vh;
 }
 
+.text-mid-white1 {
+  font-size: 32px;
+  margin-bottom: -1px !important;
+  margin-top: 5px !important;
+}
+
 .chat-img {
   width: 10vh;
   height: 30vh;
@@ -2408,8 +2614,7 @@ hr {
 }
 
 .fondoazul-img {
-  height: 47em;
-  background-size: 900%;
+  height: 76em;
 }
 
 .text-big-white {
@@ -2444,7 +2649,8 @@ hr {
 }
 
 .text-mid-white {
-  font-size: 24px;
+  font-size: 29px;
+  margin-bottom: -2vh !important;
 }
 
 .text-lit-white {
@@ -2497,3 +2703,140 @@ hr {
 
 }
 
+@media screen and (max-width:321px){
+  .text-big-white1 {
+    font-size: 25px;
+    margin-bottom: 32px;
+    margin-top: -50px;
+}
+
+.text-lit-black4 {
+  font-size: 13px;
+}
+
+.text-mid-green {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.btnwhats2-img {
+  height: 8vh;
+}
+
+.fondoverde-img {
+  height: 30em;
+}
+
+.text-mid-black {
+  font-size: 12px;
+}
+
+.text-mid-green2 {
+  font-size: 12px;
+}
+
+.text-mid-black {
+  font-size: 12px;
+  margin-bottom: -6px;
+}
+
+.text-big-black {
+  font-size: 25px;
+  margin-bottom: -9px;
+  padding: 0px;
+}
+
+.whats2-img {
+  width: 36px;
+  height: 8vh;
+}
+
+.note-img {
+  width: 38px;
+  height: 9vh;
+}
+
+.coin2-img {
+  width: 36px;
+  height: 8vh;
+}
+
+.check-img {
+  width: 36px;
+  height: 8vh;
+}
+
+.text-lit-black5 {
+  font-size: 10px;
+}
+
+.text-lit-black6 {
+  font-size: 10px;
+}
+
+.card-title {
+  font-size: 19px;
+}
+
+.btnwhats3-img {
+  width: 41vh;
+  height: 8vh;
+}
+
+.text-mid-white1 {
+  font-size: 23px;
+  margin-bottom: 4px !important;
+  margin-top: 4px !important;
+}
+
+.text-big-white {
+  font-size: 33px;
+  margin-bottom: -23px;
+}
+
+.text-lit-white {
+  font-size: 11px;
+  margin-bottom: -2px;
+}
+
+.fondoazul-img {
+  height: 64em;
+}
+
+.chat-img {
+  width: 13vh;
+  height: 42vh;
+  background-position-y: 29vh;
+}
+
+.text-mid-white {
+  font-size: 23px;
+  margin-bottom: -2vh !important;
+}
+
+.btnwhats4-img {
+  width: 45vh;
+  height: 9vh;
+}
+
+hr {
+  margin-left: 11vh;
+  margin-right: 11vh;
+}
+
+.zapp2-img {
+  width: 45vh;
+  height: 11vh;
+}
+
+.text-lit-white6 {
+  font-size: 8px;
+}
+
+.text-lit-white4 {
+  font-size: 6px;
+  margin-top: -3vh;
+}
+
+
+}
