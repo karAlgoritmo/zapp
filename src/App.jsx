@@ -14,8 +14,8 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-center flex-grow-1">
-              <Nav.Link href="#primero" className='text-header-black'>¿Cómo Funciona?</Nav.Link>
-              <Nav.Link href="#tercero" className='text-header-black'>Preguntas Frecuentes</Nav.Link>
+              <Nav.Link href="#primero" className='text-header-black'>¿Cómo funciona?</Nav.Link>
+              <Nav.Link href="#tercero" className='text-header-black'>Preguntas frecuentes</Nav.Link>
               <Nav.Link href="#cuarto" className='text-header-black'>Contacto</Nav.Link>
             </Nav>
           </Navbar.Collapse>
@@ -39,7 +39,7 @@ function App() {
                       <p className='text-lit-black4'>Escríbenos por WhatsApp </p>
                       <p className='text-lit-black4'>y haz tu primer envío por</p>
                       <Card.Text className='text-mid-green'>
-                        !$0 de comisión!
+                        ! $0 de comisión!
                       </Card.Text>
                       <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black'><div className='btnwhats2-img col-11'></div></Nav.Link>
                     </Card.Body>
@@ -119,7 +119,7 @@ function App() {
                   <Card.Text className='text-lit-black5'>de procesar tu pago.</Card.Text>
                 </Card.Body>
               </Card>
-              <div className='col-12 d-flex justify-content-center mt-5'>
+              <div className='col-12 d-flex justify-content-center'>
                 <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black mt-3'><div className='btnwhats3-img'></div></Nav.Link>
               </div>
             </div>
@@ -176,7 +176,7 @@ function App() {
               <div className='col-4'>
                 <div className='chat-img'></div>
               </div>
-              <div className='col-10 mt-5'>
+              <div className='col-10'>
                 <p className='text-big-black2'>Sólo estás a un mensaje de distancia</p>
                 <p className='text-lit-black2'>¿Tienes alguna duda o comentario? Estamos aquí para ayudarte,</p>
                 <p className='text-lit-black2'>chatea con nosotros en WhatsApp o escríbenos a hola@zapp.global</p>
@@ -211,7 +211,13 @@ function App() {
                 <p className='text-lit-white'>Envía dinero a México de forma segura desde WhatsApp.</p>
                 <p className='text-lit-white'>Zapp es la forma más fácil y segura de enviar dinero</p>
                 <p className='text-lit-white'>sin hacer fila en la tienda ni descargar una app.</p>
-                <div className='uni-img'></div>
+                <div className='row'>
+                  <div className='facebook-img'></div>
+                  <div className='instagram-img'></div>
+                  <div className='x-img'></div>
+                  <div className='linkeding-img'></div>
+                  <div className='uni-img'></div>
+                </div>
               </div>
               <div className='col-3'>
                 <p className='text-lit-white'>Compañia</p>
@@ -220,6 +226,7 @@ function App() {
                 <p className='text-lit-white'>Legales</p>
                 <p className='text-lit-white2'>Aviso de privacidad</p>
                 <p className='text-lit-white2'>Términos de uso</p>
+                <p className='text-lit-white2'>Aviso legal</p>
               </div>
               <div className='col-3'>
                 <p className='text-lit-white'>Contacto</p>
@@ -238,7 +245,7 @@ function App() {
                     <div className='correo-img'></div>
                   </div>
                   <div className='col-8'>
-                    <p className='text-lit-white3'>Hola@zapp.global</p>
+                    <p className='text-lit-white3'>hola@zapp.global</p>
                   </div>
                 </div>
                 <p className='text-lit-white2'>2023 Zapp Inc.</p>
@@ -265,7 +272,7 @@ function App() {
                   <p className='text-lit-black4'>Escríbenos por WhatsApp </p>
                   <p className='text-lit-black4'>y haz tu primer envío por</p>
                   <Card.Text className='text-mid-green'>
-                    !$0 de comisión!
+                    ! $0 de comisión !
                   </Card.Text>
                   <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black'><div className='btnwhats2-img col-12'></div></Nav.Link>
                 </Card.Body>
@@ -434,7 +441,7 @@ function App() {
                 <p className='text-lit-black2'>o comentario?</p>
                 <p className='text-lit-black2'>Estamos aquí para ayudarte,</p>
                 <p className='text-lit-black2'>chatea con nosotros en WhatsApp</p>
-                <p className='text-lit-black2 mb-4'>o escríbenos a hola@zapp.global.</p>
+                <p className='text-lit-black2 mb-4'>o escríbenos a hola@zapp.global</p>
               </div>
               <div className='col-4'>
                 <div className='chat-img'></div>
@@ -477,7 +484,10 @@ function App() {
           </section>
           <section className='d-flex justify-content-center col-12'>
             <div className='col-8 row'>
-              <div className='uni-img'></div>
+              <div className='facebook-img'></div>
+              <div className='instagram-img'></div>
+              <div className='x-img'></div>
+              <div className='linkeding-img'></div>
               <div className='uni-img'></div>
             </div>
           </section>
@@ -489,6 +499,7 @@ function App() {
               <p className='text-lit-white'>Legales</p>
               <p className='text-lit-white2'>Aviso de privacidad</p>
               <p className='text-lit-white2'>Términos de uso</p>
+              <p className='text-lit-white2'>Aviso legal</p>
             </div>
           </section>
           <section className='d-flex justify-content-center col-12 mb-5'>
@@ -509,7 +520,7 @@ function App() {
                   <div className='correo-img'></div>
                 </div>
                 <div className='col-8'>
-                  <p className='text-lit-white3'>Hola@zapp.global</p>
+                  <p className='text-lit-white3'>hola@zapp.global</p>
                 </div>
               </div>
               <p className='text-lit-white2'>2023 Zapp Inc.</p>
