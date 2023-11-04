@@ -39,7 +39,7 @@ function App() {
                       <p className='text-lit-black4'>Escríbenos por WhatsApp </p>
                       <p className='text-lit-black4'>y haz tu primer envío por</p>
                       <Card.Text className='text-mid-green'>
-                        ! $0 de comisión!
+                        !$0 de comisión!
                       </Card.Text>
                       <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black'><div className='btnwhats2-img col-11'></div></Nav.Link>
                     </Card.Body>
@@ -71,9 +71,9 @@ function App() {
           <p className='d-flex justify-content-center text-big-black'>¡Haz tu envío en un dos por tres!</p>
           <section className='pb-5 col-12'>
             <div className='row justify-content-center'>
-              <Card className='col m-5 color-blue'>
+              <Card className='col color-blue'>
                 <Card.Body>
-                  <section className='d-flex justify-content-between col-12 mb-3'>
+                  <section className='d-flex justify-content-between col-12'>
                     <div className='whats2-img col-1'></div>
                     <Card.Title className='col-9'>Escríbenos</Card.Title>
                   </section>
@@ -83,9 +83,9 @@ function App() {
                   <Card.Text className='text-lit-black5'>de WhatsApp. </Card.Text>
                 </Card.Body>
               </Card>
-              <Card className='col m-5 color-blue'>
+              <Card className='col color-blue'>
                 <Card.Body>
-                  <section className='d-flex justify-content-between col-12 mb-3'>
+                  <section className='d-flex justify-content-between col-12'>
                     <div className='note-img col-1'></div>
                     <Card.Title className='col-9'>Ingresa los detalles</Card.Title>
                   </section>
@@ -96,9 +96,9 @@ function App() {
                   <Card.Text className='text-lit-black5'>  el dinero.</Card.Text>
                 </Card.Body>
               </Card>
-              <Card className='col m-5 color-blue'>
+              <Card className='col color-blue'>
                 <Card.Body>
-                  <section className='d-flex justify-content-between col-12 mb-3'>
+                  <section className='d-flex justify-content-between col-12'>
                     <div className='coin2-img col-1'></div>
                     <Card.Title className='col-9'>Paga</Card.Title>
                   </section>
@@ -108,9 +108,9 @@ function App() {
                   <Card.Text className='text-lit-black5'>confirma el envío.</Card.Text>
                 </Card.Body>
               </Card>
-              <Card className='col m-5 color-blue'>
+              <Card className='col color-blue'>
                 <Card.Body>
-                  <section className='d-flex justify-content-between col-12 mb-3'>
+                  <section className='d-flex justify-content-between col-12'>
                     <div className='check-img col-1'></div>
                     <Card.Title className='col-9'>Recibe tu confirmación</Card.Title>
                   </section>
@@ -213,8 +213,6 @@ function App() {
                 <p className='text-lit-white'>sin hacer fila en la tienda ni descargar una app.</p>
                 <div className='row'>
                   <div className='facebook-img'></div>
-                  <div className='instagram-img'></div>
-                  <div className='x-img'></div>
                   <div className='linkeding-img'></div>
                   <div className='uni-img'></div>
                 </div>
@@ -235,10 +233,10 @@ function App() {
                     <div className='location-img'></div>
                   </div>
                   <div className='col-8'>
-                    <p className='text-lit-white3'>2001 Timberloch place,</p>
+                    <p className='text-lit-white3'>2001 Timberloch Place,</p>
                   </div>
                 </div>
-                <p className='text-lit-white4'>suite 500, The Woodlands </p>
+                <p className='text-lit-white4'>Suite 500, The Woodlands </p>
                 <p className='text-lit-white2 mb-2'>TX 77380</p>
                 <div className='row'>
                   <div className='col-1'>
@@ -272,7 +270,7 @@ function App() {
                   <p className='text-lit-black4'>Escríbenos por WhatsApp </p>
                   <p className='text-lit-black4'>y haz tu primer envío por</p>
                   <Card.Text className='text-mid-green'>
-                    ! $0 de comisión !
+                    !$0 de comisión !
                   </Card.Text>
                   <Nav.Link href="https://api.whatsapp.com/send?phone=13468144905" className='text-header-black'><div className='btnwhats2-img col-12'></div></Nav.Link>
                 </Card.Body>
@@ -280,7 +278,7 @@ function App() {
             </div>
           </div>
           <div className='col-12 d-flex justify-content-center mt-5 mb-4'>
-            <div className='col-7'>
+            <div className='col-8 mb-4'>
               <p className='text-mid-black'>Tus seres queridos podrán</p>
               <p className='text-mid-black'>recibir su dinero en más de</p>
               <p className='text-mid-black'><span className='text-mid-green2 ml-2'> 40,000 </span> <span className='text-mid-green2 mx-2'> puntos </span> de pago</p>
@@ -288,20 +286,20 @@ function App() {
             </div>
           </div>
           <div className='col-12 d-flex justify-content-center'>
-            <div className='col-8 row d-flex justify-content-around'>
+            <div className='col-9 row d-flex justify-content-around'>
               <div className='electra-img'></div>
               <div className='oxxo-img'></div>
               <div className='coppel-img'></div>
             </div>
           </div>
           <div className='col-12 d-flex justify-content-center'>
-            <div className='col-8 row d-flex justify-content-around'>
+            <div className='col-9 row d-flex justify-content-around'>
               <div className='walmart-img col-6'></div>
               <div className='banorte-img col-6'></div>
             </div>
           </div>
           <div className='col-12 d-flex justify-content-center mb-5'>
-            <div className='col-8 row d-flex justify-content-around'>
+            <div className='col-9 row d-flex justify-content-around'>
                 <div className='soriana-img'></div>
                 <div className='farmacias-img'></div>
                 <div className='bbva-img'></div>
@@ -317,7 +315,7 @@ function App() {
           </div>
           <section className='pb-5 col-12'>
             <div className='row justify-content-center'>
-              <Card className='col-7 p-4 my-5 color-blue'>
+              <Card className='col-7 my-5 color-blue'>
                 <Card.Body>
                   <section className='d-flex justify-content-between col-12 mb-3'>
                     <div className='whats2-img col-1'></div>
@@ -329,7 +327,7 @@ function App() {
                   <Card.Text className='text-lit-black5'>de WhatsApp. </Card.Text>
                 </Card.Body>
               </Card>
-              <Card className='col-7 p-4 my-5 color-blue'>
+              <Card className='col-7 my-5 color-blue'>
                 <Card.Body>
                   <section className='d-flex justify-content-between col-12 mb-3'>
                     <div className='note-img col-1'></div>
@@ -342,7 +340,7 @@ function App() {
                   <Card.Text className='text-lit-black5'>  el dinero.</Card.Text>
                 </Card.Body>
               </Card>
-              <Card className='col-7 p-4 my-5 color-blue'>
+              <Card className='col-7 my-5 color-blue'>
                 <Card.Body>
                   <section className='d-flex justify-content-between col-12 mb-3'>
                     <div className='coin2-img col-1'></div>
@@ -354,7 +352,7 @@ function App() {
                   <Card.Text className='text-lit-black5'>confirma el envío.</Card.Text>
                 </Card.Body>
               </Card>
-              <Card className='col-7 p-4 my-5 color-blue'>
+              <Card className='col-7 my-5 color-blue'>
                 <Card.Body>
                   <section className='d-flex justify-content-between col-12 mb-3'>
                     <div className='check-img col-1'></div>
@@ -459,8 +457,8 @@ function App() {
               </div>
           </section>
         </section>
-        <section className='seccionFive col-12 py-5'>
-          <section className='d-flex justify-content-center col-12 mt-5'>
+        <section className='seccionFive col-12'>
+          <section className='d-flex justify-content-center col-12 pt-5'>
             <div className='col-8'>
               <p className='text-mid-white'>Libérate de hacer</p>
               <p className='text-mid-white'>fila en la tienda</p>
@@ -482,21 +480,19 @@ function App() {
               <p className='text-lit-white6'>sin hacer fila en la tienda ni descargar una app.</p>
             </div>
           </section>
-          <section className='d-flex justify-content-center col-12'>
+          <section className='d-flex justify-content-center col-12 pt-5'>
             <div className='col-8 row'>
               <div className='facebook-img'></div>
-              <div className='instagram-img'></div>
-              <div className='x-img'></div>
               <div className='linkeding-img'></div>
               <div className='uni-img'></div>
             </div>
           </section>
           <section className='d-flex justify-content-center col-12'>
             <div className='col-8'>
-              <p className='text-lit-white'>Compañia</p>
+              <p className='text-lit-white7'>Compañia</p>
               <p className='text-lit-white2'>FAQs</p>
               <p className='text-lit-white2 mb-2'>Empleos</p>
-              <p className='text-lit-white'>Legales</p>
+              <p className='text-lit-white7'>Legales</p>
               <p className='text-lit-white2'>Aviso de privacidad</p>
               <p className='text-lit-white2'>Términos de uso</p>
               <p className='text-lit-white2'>Aviso legal</p>
@@ -504,17 +500,17 @@ function App() {
           </section>
           <section className='d-flex justify-content-center col-12 mb-5'>
             <div className='col-8'>
-              <p className='text-lit-white'>Contacto</p>
+              <p className='text-lit-white7 mb-2'>Contacto</p>
               <div className='row'>
                 <div className='col-1'>
                   <div className='location-img'></div>
                 </div>
                 <div className='col-8'>
-                  <p className='text-lit-white3'>2001 Timberloch place,</p>
+                  <p className='text-lit-white3'>2001 Timberloch Place,</p>
                 </div>
               </div>
-              <p className='text-lit-white4'>suite 500, The Woodlands </p>
-              <p className='text-lit-white2 mb-2'>TX 77380</p>
+              <p className='text-lit-white4'>Suite 500, The Woodlands </p>
+              <p className='text-lit-white8 mb-2'>TX 77380</p>
               <div className='row'>
                 <div className='col-1'>
                   <div className='correo-img'></div>
@@ -523,8 +519,8 @@ function App() {
                   <p className='text-lit-white3'>hola@zapp.global</p>
                 </div>
               </div>
-              <p className='text-lit-white2'>2023 Zapp Inc.</p>
-              <p className='text-lit-white2'>Todos los derechos reservados.</p>
+              <p className='text-lit-white9 mt-5'>2023 Zapp Inc.</p>
+              <p className='text-lit-white9'>Todos los derechos reservados.</p>
             </div>
           </section>
         </section>
